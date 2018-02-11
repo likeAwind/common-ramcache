@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 100
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/impl
+END
+HibernateAccessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/impl/HibernateAccessor.java
+END
+BdbAccessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/impl/BdbAccessor.java
+END
+HibernateQuerier.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/impl/HibernateQuerier.java
+END

@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic
+END
+ChargeFailException.java
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic/ChargeFailException.java
+END
+BasicQueueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic/BasicQueueTest.java
+END
+BasicQueueTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic/BasicQueueTest-context.xml
+END
+BasicTimingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic/BasicTimingTest.java
+END
+BasicTimingTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic/BasicTimingTest-context.xml
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/basic/Player.java
+END

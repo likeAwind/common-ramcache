@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 106
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample
+END
+CacheServiceGetSamplePessimismTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 146
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/CacheServiceGetSamplePessimismTest.java
+END
+CacheServiceGetSamplePessimismTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 153
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/CacheServiceGetSamplePessimismTest-context.xml
+END
+CacheServiceGetSample.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/CacheServiceGetSample.java
+END
+Person.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/Person.java
+END
+CacheServiceGetSampleOptimisticTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 147
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/CacheServiceGetSampleOptimisticTest.java
+END
+CacheServiceGetSampleOptimisticTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 154
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/CacheServiceGetSampleOptimisticTest-context.xml
+END
+jdbc.properties
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/service/sample/jdbc.properties
+END

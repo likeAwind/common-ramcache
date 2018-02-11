@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 105
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception
+END
+NonUniqueResultException.java
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/NonUniqueResultException.java
+END
+TransactionException.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/TransactionException.java
+END
+NamedQueryNotFound.java
+K 25
+svn:wc:ra_dav:version-url
+V 129
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/NamedQueryNotFound.java
+END
+DataException.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/DataException.java
+END
+EntityNotFoundException.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/EntityNotFoundException.java
+END
+EntityExistsException.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/EntityExistsException.java
+END
+OrmException.java
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/orm/exception/OrmException.java
+END

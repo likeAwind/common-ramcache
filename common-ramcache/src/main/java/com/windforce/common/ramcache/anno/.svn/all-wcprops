@@ -1,0 +1,77 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno
+END
+InitialConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/InitialConfig.java
+END
+Persister.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/Persister.java
+END
+CacheUnit.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/CacheUnit.java
+END
+CacheType.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/CacheType.java
+END
+Unique.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/Unique.java
+END
+Cached.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/Cached.java
+END
+Index.java
+K 25
+svn:wc:ra_dav:version-url
+V 107
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/Index.java
+END
+CachedEntityConfig.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/CachedEntityConfig.java
+END
+InitialType.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/InitialType.java
+END
+ChkUnique.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/ChkUnique.java
+END
+Inject.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/Inject.java
+END
+ChangeIndex.java
+K 25
+svn:wc:ra_dav:version-url
+V 113
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/anno/ChangeIndex.java
+END

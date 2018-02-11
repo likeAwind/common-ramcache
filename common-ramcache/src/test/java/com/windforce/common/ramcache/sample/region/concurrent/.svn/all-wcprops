@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/concurrent
+END
+BasicItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/concurrent/BasicItem.java
+END
+CreateQueueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/concurrent/CreateQueueTest.java
+END
+CreateQueueTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 144
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/concurrent/CreateQueueTest-context.xml
+END
+CreateTimingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/concurrent/CreateTimingTest.java
+END
+CreateTimingTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 145
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/concurrent/CreateTimingTest-context.xml
+END

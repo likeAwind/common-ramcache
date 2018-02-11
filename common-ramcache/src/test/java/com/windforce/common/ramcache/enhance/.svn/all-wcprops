@@ -1,0 +1,41 @@
+K 25
+svn:wc:ra_dav:version-url
+V 99
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance
+END
+ItemEnhance.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance/ItemEnhance.java
+END
+JavassistEnhancerTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance/JavassistEnhancerTest.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance/Player.java
+END
+Item.java
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance/Item.java
+END
+MockCacheService.java
+K 25
+svn:wc:ra_dav:version-url
+V 121
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance/MockCacheService.java
+END
+PlayerEnhance.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/enhance/PlayerEnhance.java
+END

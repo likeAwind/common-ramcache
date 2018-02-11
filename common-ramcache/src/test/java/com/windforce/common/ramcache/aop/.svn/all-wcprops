@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/aop
+END
+AopTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 108
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/aop/AopTest.java
+END
+AopTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/aop/AopTest-context.xml
+END
+TestTarget.java
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/aop/TestTarget.java
+END

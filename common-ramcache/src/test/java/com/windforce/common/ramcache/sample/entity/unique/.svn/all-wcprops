@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/unique
+END
+UniqueTimingTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/unique/UniqueTimingTest-context.xml
+END
+UniqueQueueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/unique/UniqueQueueTest.java
+END
+Player.java
+K 25
+svn:wc:ra_dav:version-url
+V 124
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/unique/Player.java
+END
+UniqueQueueTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 140
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/unique/UniqueQueueTest-context.xml
+END
+UniqueTimingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 134
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/entity/unique/UniqueTimingTest.java
+END

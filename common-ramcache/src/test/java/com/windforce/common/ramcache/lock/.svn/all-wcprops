@@ -1,0 +1,65 @@
+K 25
+svn:wc:ra_dav:version-url
+V 96
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock
+END
+ObjectLockTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/ObjectLockTest.java
+END
+AbstractEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/AbstractEntity.java
+END
+EntityString.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/EntityString.java
+END
+EntityDouble.java
+K 25
+svn:wc:ra_dav:version-url
+V 114
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/EntityDouble.java
+END
+LockUtilsTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/LockUtilsTest.java
+END
+WeakHashMapTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 117
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/WeakHashMapTest.java
+END
+EntityInteger.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/EntityInteger.java
+END
+ChainLockTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/ChainLockTest.java
+END
+EntityLong.java
+K 25
+svn:wc:ra_dav:version-url
+V 112
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/EntityLong.java
+END
+ObjectLockHolderTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 122
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/lock/ObjectLockHolderTest.java
+END

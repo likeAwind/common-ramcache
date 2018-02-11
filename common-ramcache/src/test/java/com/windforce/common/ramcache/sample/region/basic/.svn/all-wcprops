@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 111
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic
+END
+BasicItem.java
+K 25
+svn:wc:ra_dav:version-url
+V 126
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/BasicItem.java
+END
+LoadQueueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/LoadQueueTest.java
+END
+LoadQueueTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/LoadQueueTest-context.xml
+END
+BasicQueueTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/BasicQueueTest.java
+END
+BasicQueueTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/BasicQueueTest-context.xml
+END
+AmountNotEnoughException.java
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/AmountNotEnoughException.java
+END
+BasicTimingTest.java
+K 25
+svn:wc:ra_dav:version-url
+V 132
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/BasicTimingTest.java
+END
+BasicTimingTest-context.xml
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/BasicTimingTest-context.xml
+END
+BasicItem.sql
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/test/java/com/my9yu/common/ramcache/sample/region/basic/BasicItem.sql
+END

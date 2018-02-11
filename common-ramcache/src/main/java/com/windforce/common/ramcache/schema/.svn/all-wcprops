@@ -1,0 +1,53 @@
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema
+END
+RamCacheParser.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/RamCacheParser.java
+END
+ServiceManagerFactory.java
+K 25
+svn:wc:ra_dav:version-url
+V 125
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/ServiceManagerFactory.java
+END
+AttributeNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 118
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/AttributeNames.java
+END
+NamespaceHandler.java
+K 25
+svn:wc:ra_dav:version-url
+V 120
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/NamespaceHandler.java
+END
+InjectProcessor.java
+K 25
+svn:wc:ra_dav:version-url
+V 119
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/InjectProcessor.java
+END
+ParserHelper.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/ParserHelper.java
+END
+ramcache-1.0.xsd
+K 25
+svn:wc:ra_dav:version-url
+V 115
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/ramcache-1.0.xsd
+END
+ElementNames.java
+K 25
+svn:wc:ra_dav:version-url
+V 116
+/svn/3-Server/!svn/ver/7/dev/common/common-ramcache/src/main/java/com/my9yu/common/ramcache/schema/ElementNames.java
+END
