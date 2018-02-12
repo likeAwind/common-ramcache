@@ -1,0 +1,1243 @@
+14:45:21.355[DEBUG][main]o.s.t.c.j.SpringJUnit4ClassRunner - SpringJUnit4ClassRunner constructor called with [class com.windforce.common.ramcache.persist.TimingPerformanceTest].
+14:45:21.378[DEBUG][main]o.s.t.c.s.DelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@384ad17b declaringClass = 'com.windforce.common.ramcache.persist.TimingPerformanceTest', locations = '{}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:45:21.382[INFO ][main]o.s.t.c.s.AbstractContextLoader - Detected default resource location "classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml" for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest].
+14:45:21.382[INFO ][main]o.s.t.c.s.DelegatingSmartContextLoader - GenericXmlContextLoader detected default locations for context configuration [ContextConfigurationAttributes@384ad17b declaringClass = 'com.windforce.common.ramcache.persist.TimingPerformanceTest', locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:45:21.382[DEBUG][main]o.s.t.c.s.DelegatingSmartContextLoader - Delegating to AnnotationConfigContextLoader to process context configuration [ContextConfigurationAttributes@384ad17b declaringClass = 'com.windforce.common.ramcache.persist.TimingPerformanceTest', locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', inheritLocations = true, contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+14:45:21.384[INFO ][main]o.s.t.c.s.AnnotationConfigContextLoader - Could not detect default configuration classes for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest]: TimingPerformanceTest does not declare any static, non-private, non-final, inner classes annotated with @Configuration.
+14:45:21.385[DEBUG][main]o.s.test.context.ContextLoaderUtils - Could not find an 'annotation declaring class' for annotation type [interface org.springframework.test.context.ActiveProfiles] and class [class com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.386[INFO ][main]o.s.test.context.TestContextManager - @TestExecutionListeners is not present for class [class com.windforce.common.ramcache.persist.TimingPerformanceTest]: using defaults.
+14:45:21.396[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.396[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.402[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.402[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.403[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.403[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.404[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.404[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.405[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved @ProfileValueSourceConfiguration [null] for test class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.405[DEBUG][main]o.s.t.annotation.ProfileValueUtils - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [com.windforce.common.ramcache.persist.TimingPerformanceTest]
+14:45:21.407[DEBUG][main]o.s.t.c.s.DependencyInjectionTestExecutionListener - Performing dependency injection for test context [[TestContext@1aafa419 testClass = TimingPerformanceTest, testInstance = com.windforce.common.ramcache.persist.TimingPerformanceTest@47eaca72, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@55141def testClass = TimingPerformanceTest, locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]].
+14:45:21.408[DEBUG][main]o.s.t.c.s.DelegatingSmartContextLoader - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@55141def testClass = TimingPerformanceTest, locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader'].
+14:45:21.408[DEBUG][main]o.s.t.c.s.AbstractGenericContextLoader - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@55141def testClass = TimingPerformanceTest, locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+14:45:21.444[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.445[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.446[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.446[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.475[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.475[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.475[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.475[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.479[INFO ][main]o.s.b.f.xml.XmlBeanDefinitionReader - Loading XML bean definitions from class path resource [com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml]
+14:45:21.483[DEBUG][main]o.s.b.f.xml.DefaultDocumentLoader - Using JAXP provider [com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderFactoryImpl]
+14:45:21.503[DEBUG][main]o.s.b.f.xml.PluggableSchemaResolver - Loading schema mappings from [META-INF/spring.schemas]
+14:45:21.507[DEBUG][main]o.s.b.f.xml.PluggableSchemaResolver - Loaded schema mappings: {http://www.springframework.org/schema/util/spring-util.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-3.1.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/task/spring-task.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/cache/spring-cache.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.0.xsd=org/springframework/aop/config/spring-aop-3.0.xsd, http://www.springframework.org/schema/aop/spring-aop-2.0.xsd=org/springframework/aop/config/spring-aop-2.0.xsd, http://www.springframework.org/schema/task/spring-task-3.1.xsd=org/springframework/scheduling/config/spring-task-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.5.xsd=org/springframework/beans/factory/xml/spring-tool-2.5.xsd, http://www.springframework.org/schema/beans/spring-beans.xsd=org/springframework/beans/factory/xml/spring-beans-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.5.xsd=org/springframework/ejb/config/spring-jee-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.1.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-3.1.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-3.1.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/beans/spring-beans-2.0.xsd=org/springframework/beans/factory/xml/spring-beans-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-3.0.xsd=org/springframework/beans/factory/xml/spring-beans-3.0.xsd, http://www.springframework.org/schema/task/spring-task-3.0.xsd=org/springframework/scheduling/config/spring-task-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-2.5.xsd=org/springframework/transaction/config/spring-tx-2.5.xsd, http://www.springframework.org/schema/context/spring-context-2.5.xsd=org/springframework/context/config/spring-context-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc-3.0.xsd=org/springframework/jdbc/config/spring-jdbc-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool-3.0.xsd=org/springframework/beans/factory/xml/spring-tool-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/tool/spring-tool-2.0.xsd=org/springframework/beans/factory/xml/spring-tool-2.0.xsd, http://www.springframework.org/schema/util/spring-util-2.5.xsd=org/springframework/beans/factory/xml/spring-util-2.5.xsd, http://www.springframework.org/schema/lang/spring-lang.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-2.5.xsd=org/springframework/scripting/config/spring-lang-2.5.xsd, http://www.springframework.org/schema/jee/spring-jee-3.0.xsd=org/springframework/ejb/config/spring-jee-3.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.1.xsd=org/springframework/transaction/config/spring-tx-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee-2.0.xsd=org/springframework/ejb/config/spring-jee-2.0.xsd, http://www.springframework.org/schema/context/spring-context-3.1.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.1.xsd=org/springframework/beans/factory/xml/spring-util-3.1.xsd, http://www.springframework.org/schema/lang/spring-lang-3.1.xsd=org/springframework/scripting/config/spring-lang-3.1.xsd, http://www.my9yu.com/common/ramcache/ramcache-1.0.xsd=com/my9yu/common/ramcache/schema/ramcache-1.0.xsd, http://www.springframework.org/schema/cache/spring-cache-3.1.xsd=org/springframework/cache/config/spring-cache-3.1.xsd, http://www.springframework.org/schema/context/spring-context.xsd=org/springframework/context/config/spring-context-3.1.xsd, http://www.springframework.org/schema/jee/spring-jee.xsd=org/springframework/ejb/config/spring-jee-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-2.5.xsd=org/springframework/aop/config/spring-aop-2.5.xsd, http://www.springframework.org/schema/jdbc/spring-jdbc.xsd=org/springframework/jdbc/config/spring-jdbc-3.1.xsd, http://www.springframework.org/schema/aop/spring-aop-3.1.xsd=org/springframework/aop/config/spring-aop-3.1.xsd, http://www.springframework.org/schema/tx/spring-tx-2.0.xsd=org/springframework/transaction/config/spring-tx-2.0.xsd, http://www.springframework.org/schema/tx/spring-tx-3.0.xsd=org/springframework/transaction/config/spring-tx-3.0.xsd, http://www.springframework.org/schema/context/spring-context-3.0.xsd=org/springframework/context/config/spring-context-3.0.xsd, http://www.springframework.org/schema/tool/spring-tool.xsd=org/springframework/beans/factory/xml/spring-tool-3.1.xsd, http://www.springframework.org/schema/util/spring-util-3.0.xsd=org/springframework/beans/factory/xml/spring-util-3.0.xsd, http://www.springframework.org/schema/lang/spring-lang-3.0.xsd=org/springframework/scripting/config/spring-lang-3.0.xsd, http://www.springframework.org/schema/util/spring-util-2.0.xsd=org/springframework/beans/factory/xml/spring-util-2.0.xsd, http://www.springframework.org/schema/lang/spring-lang-2.0.xsd=org/springframework/scripting/config/spring-lang-2.0.xsd, http://www.springframework.org/schema/beans/spring-beans-2.5.xsd=org/springframework/beans/factory/xml/spring-beans-2.5.xsd}
+14:45:21.508[DEBUG][main]o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/beans/spring-beans-3.0.xsd] in classpath: org/springframework/beans/factory/xml/spring-beans-3.0.xsd
+14:45:21.534[DEBUG][main]o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/context/spring-context-2.5.xsd] in classpath: org/springframework/context/config/spring-context-2.5.xsd
+14:45:21.539[DEBUG][main]o.s.b.f.xml.PluggableSchemaResolver - Found XML schema [http://www.springframework.org/schema/tool/spring-tool-2.5.xsd] in classpath: org/springframework/beans/factory/xml/spring-tool-2.5.xsd
+14:45:21.546[DEBUG][main]o.s.b.f.x.DefaultBeanDefinitionDocumentReader - Loading bean definitions
+14:45:21.560[DEBUG][main]o.s.b.f.x.DefaultNamespaceHandlerResolver - Loaded NamespaceHandler mappings: {http://www.springframework.org/schema/p=org.springframework.beans.factory.xml.SimplePropertyNamespaceHandler, http://www.springframework.org/schema/util=org.springframework.beans.factory.xml.UtilNamespaceHandler, http://www.springframework.org/schema/jee=org.springframework.ejb.config.JeeNamespaceHandler, http://www.my9yu.com/common/ramcache=com.my9yu.common.ramcache.schema.NamespaceHandler, http://www.springframework.org/schema/aop=org.springframework.aop.config.AopNamespaceHandler, http://www.springframework.org/schema/jdbc=org.springframework.jdbc.config.JdbcNamespaceHandler, http://www.springframework.org/schema/cache=org.springframework.cache.config.CacheNamespaceHandler, http://www.springframework.org/schema/c=org.springframework.beans.factory.xml.SimpleConstructorNamespaceHandler, http://www.springframework.org/schema/tx=org.springframework.transaction.config.TxNamespaceHandler, http://www.springframework.org/schema/task=org.springframework.scheduling.config.TaskNamespaceHandler, http://www.springframework.org/schema/lang=org.springframework.scripting.config.LangNamespaceHandler, http://www.springframework.org/schema/context=org.springframework.context.config.ContextNamespaceHandler}
+14:45:21.575[DEBUG][main]o.s.b.f.xml.XmlBeanDefinitionReader - Loaded 9 bean definitions from location pattern [classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml]
+14:45:21.576[INFO ][main]o.s.c.s.GenericApplicationContext - Refreshing org.springframework.context.support.GenericApplicationContext@5b12b668: startup date [Mon Feb 12 14:45:21 GMT+08:00 2018]; root of context hierarchy
+14:45:21.576[DEBUG][main]o.s.c.s.GenericApplicationContext - Bean factory for org.springframework.context.support.GenericApplicationContext@5b12b668: org.springframework.beans.factory.support.DefaultListableBeanFactory@59402b8f: defining beans [propertyConfigurer,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,accessor]; root of factory hierarchy
+14:45:21.588[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:45:21.589[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:45:21.603[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor' to allow for resolving potential circular references
+14:45:21.604[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:45:21.625[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'propertyConfigurer'
+14:45:21.625[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'propertyConfigurer'
+14:45:21.627[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'propertyConfigurer' to allow for resolving potential circular references
+14:45:21.657[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'propertyConfigurer'
+14:45:21.657[INFO ][main]o.s.b.f.c.PropertyPlaceholderConfigurer - Loading properties file from class path resource [com/windforce/common/ramcache/persist/jdbc.properties]
+14:45:21.661[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:45:21.661[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:45:21.662[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor' to allow for resolving potential circular references
+14:45:21.662[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:45:21.662[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:45:21.662[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:45:21.663[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor' to allow for resolving potential circular references
+14:45:21.663[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:45:21.663[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:45:21.663[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:45:21.667[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor' to allow for resolving potential circular references
+14:45:21.667[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:45:21.667[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+14:45:21.667[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+14:45:21.668[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor' to allow for resolving potential circular references
+14:45:21.668[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+14:45:21.668[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+14:45:21.668[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+14:45:21.668[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0' to allow for resolving potential circular references
+14:45:21.668[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+14:45:21.671[DEBUG][main]o.s.c.s.GenericApplicationContext - Unable to locate MessageSource with name 'messageSource': using default [org.springframework.context.support.DelegatingMessageSource@79c97cb]
+14:45:21.673[DEBUG][main]o.s.c.s.GenericApplicationContext - Unable to locate ApplicationEventMulticaster with name 'applicationEventMulticaster': using default [org.springframework.context.event.SimpleApplicationEventMulticaster@1acaf3d]
+14:45:21.674[INFO ][main]o.s.b.f.s.DefaultListableBeanFactory - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59402b8f: defining beans [propertyConfigurer,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,accessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'propertyConfigurer'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalRequiredAnnotationProcessor'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.internalPersistenceAnnotationProcessor'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'dataSource'
+14:45:21.674[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'dataSource'
+14:45:21.685[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'dataSource' to allow for resolving potential circular references
+14:45:21.698[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.698[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.698[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.699[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.700[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.700[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.701[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.701[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.701[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.701[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.702[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.702[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.702[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.703[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.709[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'dataSource'
+14:45:21.709[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'sessionFactory'
+14:45:21.709[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'sessionFactory'
+14:45:21.721[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'sessionFactory' to allow for resolving potential circular references
+14:45:21.733[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'dataSource'
+14:45:21.733[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.733[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.733[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.733[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.734[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Initializing new StandardEnvironment
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemProperties] PropertySource with lowest search precedence
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Adding [systemEnvironment] PropertySource with lowest search precedence
+14:45:21.735[DEBUG][main]o.s.core.env.StandardEnvironment - Initialized StandardEnvironment with PropertySources [systemProperties,systemEnvironment]
+14:45:21.738[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'sessionFactory'
+14:45:21.757[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3daf7722
+14:45:21.758[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3daf7722
+14:45:21.758[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3daf7722
+14:45:21.759[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7efaad5a
+14:45:21.761[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@7a362b6b
+14:45:21.761[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4ae9cfc1
+14:45:21.762[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@60856961
+14:45:21.762[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@60856961
+14:45:21.762[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@60856961
+14:45:21.763[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@61fe30
+14:45:21.763[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@61fe30
+14:45:21.763[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@61fe30
+14:45:21.765[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3b96c42e
+14:45:21.765[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3b96c42e
+14:45:21.765[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3b96c42e
+14:45:21.766[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@9ebe38b
+14:45:21.766[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@9ebe38b
+14:45:21.766[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@9ebe38b
+14:45:21.767[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5bf0fe62
+14:45:21.767[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5bf0fe62
+14:45:21.767[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@5bf0fe62
+14:45:21.768[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4c1f22f3
+14:45:21.768[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4c1f22f3
+14:45:21.768[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4c1f22f3
+14:45:21.769[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@e57b96d
+14:45:21.770[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@e57b96d
+14:45:21.770[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@e57b96d
+14:45:21.771[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@49ff7d8c
+14:45:21.771[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@49ff7d8c
+14:45:21.772[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7331196b
+14:45:21.772[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7331196b
+14:45:21.773[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@64a40280
+14:45:21.773[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@64a40280
+14:45:21.773[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@5ce8d869
+14:45:21.774[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5ce8d869
+14:45:21.775[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@539d019
+14:45:21.775[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@539d019
+14:45:21.776[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@5812f68b
+14:45:21.776[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5812f68b
+14:45:21.778[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@4b79ac84
+14:45:21.778[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4b79ac84
+14:45:21.778[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4b79ac84
+14:45:21.778[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2766ca9d
+14:45:21.779[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@b7c4869
+14:45:21.779[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@b7c4869
+14:45:21.779[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@b7c4869
+14:45:21.780[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@676cf48
+14:45:21.781[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@3c9c0d96
+14:45:21.781[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3c9c0d96
+14:45:21.781[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1f010bf0
+14:45:21.781[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1f010bf0
+14:45:21.782[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6bca7e0d
+14:45:21.782[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6bca7e0d
+14:45:21.783[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@bcef303
+14:45:21.783[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@bcef303
+14:45:21.784[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@39655d3e
+14:45:21.784[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@39655d3e
+14:45:21.785[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6e4566f1
+14:45:21.785[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@53de625d
+14:45:21.786[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5dcb4f5f
+14:45:21.786[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5dcb4f5f
+14:45:21.786[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5dcb4f5f
+14:45:21.787[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3a5ecce3
+14:45:21.787[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3a5ecce3
+14:45:21.787[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3a5ecce3
+14:45:21.788[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@7803bfd
+14:45:21.789[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@74f5ce22
+14:45:21.789[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@74f5ce22
+14:45:21.789[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@74f5ce22
+14:45:21.790[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@dbd8e44
+14:45:21.790[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@dbd8e44
+14:45:21.790[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@dbd8e44
+14:45:21.791[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@7ac0e420
+14:45:21.801[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@1af687fe
+14:45:21.801[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1af687fe
+14:45:21.802[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5a411614
+14:45:21.802[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@47a5b70d
+14:45:21.806[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@73dce0e6
+14:45:21.806[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@73dce0e6
+14:45:21.806[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@53dacd14
+14:45:21.807[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@42f33b5d
+14:45:21.807[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@3f07b12c
+14:45:21.808[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@25bc0606
+14:45:21.810[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@f001896
+14:45:21.810[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@f001896
+14:45:21.810[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@4409e975
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@5c153b9e
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@2a7686a7
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@758a34ce
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@7ec3394b
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@bff34c6
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@1522d8a0
+14:45:21.811[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@312ab28e
+14:45:21.823[INFO ][main]o.h.annotations.common.Version - Hibernate Commons Annotations 3.2.0.Final
+14:45:21.826[INFO ][main]org.hibernate.cfg.Environment - Hibernate 3.6.10.Final
+14:45:21.827[INFO ][main]org.hibernate.cfg.Environment - hibernate.properties not found
+14:45:21.829[INFO ][main]org.hibernate.cfg.Environment - Bytecode provider name : javassist
+14:45:21.831[INFO ][main]org.hibernate.cfg.Environment - using JDK 1.4 java.sql.Timestamp handling
+14:45:21.859[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid2] -> [class org.hibernate.id.UUIDGenerator]
+14:45:21.860[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [guid] -> [class org.hibernate.id.GUIDGenerator]
+14:45:21.860[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid] -> [class org.hibernate.id.UUIDHexGenerator]
+14:45:21.861[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [uuid.hex] -> [class org.hibernate.id.UUIDHexGenerator]
+14:45:21.862[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [hilo] -> [class org.hibernate.id.TableHiLoGenerator]
+14:45:21.862[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [assigned] -> [class org.hibernate.id.Assigned]
+14:45:21.863[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [identity] -> [class org.hibernate.id.IdentityGenerator]
+14:45:21.863[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [select] -> [class org.hibernate.id.SelectGenerator]
+14:45:21.863[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence] -> [class org.hibernate.id.SequenceGenerator]
+14:45:21.864[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [seqhilo] -> [class org.hibernate.id.SequenceHiLoGenerator]
+14:45:21.864[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [increment] -> [class org.hibernate.id.IncrementGenerator]
+14:45:21.864[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [foreign] -> [class org.hibernate.id.ForeignGenerator]
+14:45:21.865[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [sequence-identity] -> [class org.hibernate.id.SequenceIdentityGenerator]
+14:45:21.865[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-sequence] -> [class org.hibernate.id.enhanced.SequenceStyleGenerator]
+14:45:21.866[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Registering IdentifierGenerator strategy [enhanced-table] -> [class org.hibernate.id.enhanced.TableGenerator]
+14:45:21.869[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist]
+14:45:21.870[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/test-classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.871[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\.svn] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/test-classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.872[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\.svn\props] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/test-classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.872[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\.svn\tmp] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/test-classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.873[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\.svn\tmp\props] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/test-classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.879[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Looking for matching resources in directory tree [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist]
+14:45:21.879[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.879[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\.svn] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.880[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\.svn\props] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.881[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\.svn\tmp] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.882[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Searching directory [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\.svn\tmp\props] for files matching pattern [C:/Users/windforce/OneDrive/projects/common-ramcache/common-ramcache/target/classes/com/windforce/common/ramcache/persist/**/*.class]
+14:45:21.884[DEBUG][main]o.s.c.i.s.PathMatchingResourcePatternResolver - Resolved location pattern [classpath*:com/windforce/common/ramcache/persist/**/*.class] to resources [file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\EntityQueueTest$1TestListener.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\EntityQueueTest.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\InterTest$1.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\InterTest.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\Person.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\Pet.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\QueuePerformanceTest.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes\com\windforce\common\ramcache\persist\TimingPerformanceTest.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\AbstractListener.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\Element.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\EventType.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\Listener.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\Persister.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\PersisterConfig.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\PersisterType.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\QueueConsumer.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\QueuePersister.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\TimingConsumer.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\TimingConsumerState.class], file [C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes\com\windforce\common\ramcache\persist\TimingPersister.class]]
+14:45:21.919[DEBUG][main]org.hibernate.cfg.Configuration - Processing hbm.xml files
+14:45:21.919[DEBUG][main]org.hibernate.cfg.Configuration - Process annotated classes
+14:45:21.923[INFO ][main]org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.windforce.common.ramcache.persist.Person
+14:45:21.937[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+14:45:21.938[DEBUG][main]org.hibernate.cfg.AnnotationBinder - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+14:45:21.942[DEBUG][main]o.h.cfg.annotations.EntityBinder - Import with entity name Person
+14:45:21.945[INFO ][main]o.h.cfg.annotations.EntityBinder - Bind entity com.windforce.common.ramcache.persist.Person on table Person
+14:45:21.959[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Person), mappingColumn=id, insertable=true, updatable=true, unique=false}
+14:45:21.961[DEBUG][main]o.h.cfg.annotations.PropertyBinder - binding property id with lazy=false
+14:45:21.963[DEBUG][main]o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+14:45:21.964[DEBUG][main]o.h.cfg.annotations.PropertyBinder - Building property id
+14:45:21.967[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Person), mappingColumn=name, insertable=true, updatable=true, unique=false}
+14:45:21.967[DEBUG][main]o.h.cfg.annotations.PropertyBinder - binding property name with lazy=false
+14:45:21.967[DEBUG][main]o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+14:45:21.968[DEBUG][main]o.h.cfg.annotations.PropertyBinder - Building property name
+14:45:21.969[INFO ][main]org.hibernate.cfg.AnnotationBinder - Binding entity from annotated class: com.windforce.common.ramcache.persist.Pet
+14:45:21.969[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3DiscriminatorColumn{logicalColumnName'DTYPE', discriminatorTypeName='string'}
+14:45:21.969[DEBUG][main]org.hibernate.cfg.AnnotationBinder - no value specified for 'javax.persistence.sharedCache.mode'; using UNSPECIFIED
+14:45:21.969[DEBUG][main]o.h.cfg.annotations.EntityBinder - Import with entity name Pet
+14:45:21.969[INFO ][main]o.h.cfg.annotations.EntityBinder - Bind entity com.windforce.common.ramcache.persist.Pet on table Pet
+14:45:21.971[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Pet), mappingColumn=id, insertable=true, updatable=true, unique=false}
+14:45:21.971[DEBUG][main]o.h.cfg.annotations.PropertyBinder - binding property id with lazy=false
+14:45:21.971[DEBUG][main]o.h.c.annotations.SimpleValueBinder - building SimpleValue for id
+14:45:21.971[DEBUG][main]o.h.cfg.annotations.PropertyBinder - Building property id
+14:45:21.971[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Pet), mappingColumn=name, insertable=true, updatable=true, unique=false}
+14:45:21.971[DEBUG][main]o.h.cfg.annotations.PropertyBinder - binding property name with lazy=false
+14:45:21.971[DEBUG][main]o.h.c.annotations.SimpleValueBinder - building SimpleValue for name
+14:45:21.971[DEBUG][main]o.h.cfg.annotations.PropertyBinder - Building property name
+14:45:21.971[DEBUG][main]org.hibernate.cfg.Ejb3Column - Binding column: Ejb3Column{table=org.hibernate.mapping.Table(Pet), mappingColumn=personId, insertable=true, updatable=true, unique=false}
+14:45:21.971[DEBUG][main]o.h.cfg.annotations.PropertyBinder - binding property personId with lazy=false
+14:45:21.971[DEBUG][main]o.h.c.annotations.SimpleValueBinder - building SimpleValue for personId
+14:45:21.971[DEBUG][main]o.h.cfg.annotations.PropertyBinder - Building property personId
+14:45:21.972[DEBUG][main]o.h.c.annotations.SimpleValueBinder - Setting SimpleValue typeName for id
+14:45:21.972[DEBUG][main]o.h.c.annotations.SimpleValueBinder - Setting SimpleValue typeName for name
+14:45:21.972[DEBUG][main]o.h.c.annotations.SimpleValueBinder - Setting SimpleValue typeName for id
+14:45:21.973[DEBUG][main]o.h.c.annotations.SimpleValueBinder - Setting SimpleValue typeName for name
+14:45:21.973[DEBUG][main]o.h.c.annotations.SimpleValueBinder - Setting SimpleValue typeName for personId
+14:45:21.973[DEBUG][main]org.hibernate.cfg.Configuration - processing fk mappings (*ToOne and JoinedSubclass)
+14:45:21.974[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:21.974[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:21.974[DEBUG][main]org.hibernate.cfg.Configuration - processing collection mappings
+14:45:21.975[DEBUG][main]org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+14:45:21.975[DEBUG][main]org.hibernate.cfg.Configuration - processing association property references
+14:45:21.975[DEBUG][main]org.hibernate.cfg.Configuration - processing foreign key constraints
+14:45:21.978[INFO ][main]org.hibernate.cfg.Configuration - Hibernate Validator not found: ignoring
+14:45:21.980[INFO ][main]o.s.o.h.a.AnnotationSessionFactoryBean - Building new Hibernate SessionFactory
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - Preparing to build session factory with filters : {}
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - Processing hbm.xml files
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - Process annotated classes
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing fk mappings (*ToOne and JoinedSubclass)
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing collection mappings
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing association property references
+14:45:21.980[DEBUG][main]org.hibernate.cfg.Configuration - processing foreign key constraints
+14:45:21.981[DEBUG][main]org.hibernate.cfg.Configuration - Legacy Validator not present in classpath, ignoring event listener registration
+14:45:21.983[DEBUG][main]o.h.c.s.HibernateSearchEventListenerRegister - Search not present in classpath, ignoring event listener registration.
+14:45:21.983[INFO ][main]o.h.c.s.HibernateSearchEventListenerRegister - Unable to find org.hibernate.search.event.FullTextIndexEventListener on the classpath. Hibernate Search is not enabled.
+14:45:21.985[INFO ][main]o.h.c.ConnectionProviderFactory - Initializing connection provider: org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider
+14:45:22.243[INFO ][main]org.hibernate.dialect.Dialect - Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+14:45:22.250[INFO ][main]org.hibernate.cfg.SettingsFactory - Database ->
+       name : MySQL
+    version : 5.6.21-log
+      major : 5
+      minor : 6
+14:45:22.250[INFO ][main]org.hibernate.cfg.SettingsFactory - Driver ->
+       name : MySQL-AB JDBC Driver
+    version : mysql-connector-java-5.1.18 ( Revision: tonci.grgin@oracle.com-20110930151701-jfj14ddfq48ifkfq )
+      major : 5
+      minor : 1
+14:45:22.251[INFO ][main]o.h.t.TransactionFactoryFactory - Transaction strategy: org.springframework.orm.hibernate3.SpringTransactionFactory
+14:45:22.252[INFO ][main]o.h.t.TransactionManagerLookupFactory - No TransactionManagerLookup configured (in JTA environment, use of read-write or transactional second-level cache is not recommended)
+14:45:22.252[INFO ][main]org.hibernate.cfg.SettingsFactory - Automatic flush during beforeCompletion(): disabled
+14:45:22.252[INFO ][main]org.hibernate.cfg.SettingsFactory - Automatic session close at end of transaction: disabled
+14:45:22.252[INFO ][main]org.hibernate.cfg.SettingsFactory - JDBC batch size: 15
+14:45:22.252[INFO ][main]org.hibernate.cfg.SettingsFactory - JDBC batch updates for versioned data: disabled
+14:45:22.253[INFO ][main]org.hibernate.cfg.SettingsFactory - Scrollable result sets: enabled
+14:45:22.253[DEBUG][main]org.hibernate.cfg.SettingsFactory - Wrap result sets: disabled
+14:45:22.253[INFO ][main]org.hibernate.cfg.SettingsFactory - JDBC3 getGeneratedKeys(): enabled
+14:45:22.253[INFO ][main]org.hibernate.cfg.SettingsFactory - Connection release mode: auto
+14:45:22.253[INFO ][main]org.hibernate.cfg.SettingsFactory - Maximum outer join fetch depth: 2
+14:45:22.253[INFO ][main]org.hibernate.cfg.SettingsFactory - Default batch fetch size: 1
+14:45:22.254[INFO ][main]org.hibernate.cfg.SettingsFactory - Generate SQL with comments: disabled
+14:45:22.254[INFO ][main]org.hibernate.cfg.SettingsFactory - Order SQL updates by primary key: disabled
+14:45:22.254[INFO ][main]org.hibernate.cfg.SettingsFactory - Order SQL inserts for batching: disabled
+14:45:22.254[INFO ][main]org.hibernate.cfg.SettingsFactory - Query translator: org.hibernate.hql.ast.ASTQueryTranslatorFactory
+14:45:22.255[INFO ][main]o.h.h.ast.ASTQueryTranslatorFactory - Using ASTQueryTranslatorFactory
+14:45:22.255[INFO ][main]org.hibernate.cfg.SettingsFactory - Query language substitutions: {}
+14:45:22.255[INFO ][main]org.hibernate.cfg.SettingsFactory - JPA-QL strict compliance: disabled
+14:45:22.255[INFO ][main]org.hibernate.cfg.SettingsFactory - Second-level cache: disabled
+14:45:22.255[INFO ][main]org.hibernate.cfg.SettingsFactory - Query cache: disabled
+14:45:22.255[INFO ][main]org.hibernate.cfg.SettingsFactory - Cache region factory : org.hibernate.cache.impl.NoCachingRegionFactory
+14:45:22.256[INFO ][main]org.hibernate.cfg.SettingsFactory - Optimize cache for minimal puts: disabled
+14:45:22.256[INFO ][main]org.hibernate.cfg.SettingsFactory - Structured second-level cache entries: disabled
+14:45:22.258[INFO ][main]org.hibernate.cfg.SettingsFactory - Echoing all SQL to stdout
+14:45:22.258[INFO ][main]org.hibernate.cfg.SettingsFactory - Statistics: disabled
+14:45:22.258[INFO ][main]org.hibernate.cfg.SettingsFactory - Deleted entity synthetic identifier rollback: disabled
+14:45:22.259[INFO ][main]org.hibernate.cfg.SettingsFactory - Default entity-mode: pojo
+14:45:22.259[INFO ][main]org.hibernate.cfg.SettingsFactory - Named query checking : enabled
+14:45:22.259[INFO ][main]org.hibernate.cfg.SettingsFactory - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+14:45:22.268[INFO ][main]o.hibernate.impl.SessionFactoryImpl - building session factory
+14:45:22.271[DEBUG][main]o.hibernate.impl.SessionFactoryImpl - Statistics initialized [enabled=false]}
+14:45:22.271[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3daf7722
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration boolean -> org.hibernate.type.BooleanType@3daf7722
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@3daf7722
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@7efaad5a
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration true_false -> org.hibernate.type.TrueFalseType@7a362b6b
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration yes_no -> org.hibernate.type.YesNoType@4ae9cfc1
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@60856961
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration byte -> org.hibernate.type.ByteType@60856961
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@60856961
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration character -> org.hibernate.type.CharacterType@61fe30
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration char -> org.hibernate.type.CharacterType@61fe30
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@61fe30
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3b96c42e
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration short -> org.hibernate.type.ShortType@3b96c42e
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@3b96c42e
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration integer -> org.hibernate.type.IntegerType@9ebe38b
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration int -> org.hibernate.type.IntegerType@9ebe38b
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@9ebe38b
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5bf0fe62
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration long -> org.hibernate.type.LongType@5bf0fe62
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Long -> org.hibernate.type.LongType@5bf0fe62
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4c1f22f3
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration float -> org.hibernate.type.FloatType@4c1f22f3
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@4c1f22f3
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@e57b96d
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration double -> org.hibernate.type.DoubleType@e57b96d
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@e57b96d
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@49ff7d8c
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@49ff7d8c
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@7331196b
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@7331196b
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration string -> org.hibernate.type.StringType@64a40280
+14:45:22.272[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.String -> org.hibernate.type.StringType@64a40280
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration url -> org.hibernate.type.UrlType@5ce8d869
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.net.URL -> org.hibernate.type.UrlType@5ce8d869
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration date -> org.hibernate.type.DateType@539d019
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Date -> org.hibernate.type.DateType@539d019
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration time -> org.hibernate.type.TimeType@5812f68b
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@5812f68b
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration timestamp -> org.hibernate.type.TimestampType@4b79ac84
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@4b79ac84
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@4b79ac84
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@2766ca9d
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration calendar -> org.hibernate.type.CalendarType@b7c4869
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@b7c4869
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@b7c4869
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@676cf48
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration locale -> org.hibernate.type.LocaleType@3c9c0d96
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@3c9c0d96
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration currency -> org.hibernate.type.CurrencyType@1f010bf0
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@1f010bf0
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration timezone -> org.hibernate.type.TimeZoneType@6bca7e0d
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@6bca7e0d
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration class -> org.hibernate.type.ClassType@bcef303
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@bcef303
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@39655d3e
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@39655d3e
+14:45:22.273[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@6e4566f1
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@53de625d
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration binary -> org.hibernate.type.BinaryType@5dcb4f5f
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration byte[] -> org.hibernate.type.BinaryType@5dcb4f5f
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [B -> org.hibernate.type.BinaryType@5dcb4f5f
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@3a5ecce3
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@3a5ecce3
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@3a5ecce3
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration image -> org.hibernate.type.ImageType@7803bfd
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration characters -> org.hibernate.type.CharArrayType@74f5ce22
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration char[] -> org.hibernate.type.CharArrayType@74f5ce22
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [C -> org.hibernate.type.CharArrayType@74f5ce22
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@dbd8e44
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@dbd8e44
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@dbd8e44
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration text -> org.hibernate.type.TextType@7ac0e420
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@1af687fe
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@1af687fe
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@5a411614
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@47a5b70d
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@73dce0e6
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@73dce0e6
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@53dacd14
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@42f33b5d
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@3f07b12c
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration serializable -> org.hibernate.type.SerializableType@25bc0606
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration object -> org.hibernate.type.ObjectType@f001896
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@f001896
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@742d4e15
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@88a8218
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@50b1f030
+14:45:22.274[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@4163f1cd
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@5fa05212
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3e681bc
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@5c09d180
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@23aae55
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_characters_clob -> org.hibernate.type.CharacterArrayClobType@65ef722a
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_characters_clob] overrides previous : org.hibernate.type.CharacterArrayClobType@42f33b5d
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@1c05a54d
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [materialized_clob] overrides previous : org.hibernate.type.MaterializedClobType@53dacd14
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration wrapper_materialized_blob -> org.hibernate.type.WrappedMaterializedBlobType@74a9c4b0
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [wrapper_materialized_blob] overrides previous : org.hibernate.type.WrappedMaterializedBlobType@47a5b70d
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration characters_clob -> org.hibernate.type.PrimitiveCharacterArrayClobType@5fd9b663
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [characters_clob] overrides previous : org.hibernate.type.PrimitiveCharacterArrayClobType@3f07b12c
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration blob -> org.hibernate.type.BlobType@3b65e559
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [blob] overrides previous : org.hibernate.type.BlobType@1af687fe
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@3b65e559
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Blob] overrides previous : org.hibernate.type.BlobType@1af687fe
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration clob -> org.hibernate.type.ClobType@85ec632
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [clob] overrides previous : org.hibernate.type.ClobType@73dce0e6
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@85ec632
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [java.sql.Clob] overrides previous : org.hibernate.type.ClobType@73dce0e6
+14:45:22.275[DEBUG][main]org.hibernate.type.BasicTypeRegistry - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@bae47a0
+14:45:22.275[INFO ][main]org.hibernate.type.BasicTypeRegistry - Type registration [materialized_blob] overrides previous : org.hibernate.type.MaterializedBlobType@5a411614
+14:45:22.276[DEBUG][main]o.hibernate.impl.SessionFactoryImpl - Session factory constructed with filter configurations : {}
+14:45:22.277[DEBUG][main]o.hibernate.impl.SessionFactoryImpl - instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_161\jre\bin, java.vm.version=25.161-b12, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache, java.runtime.version=1.8.0_161-b12, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hibernate.current_session_context_class=org.springframework.orm.hibernate3.SpringSessionContext, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\WINDFO~1\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, cache.provider_class=org.hibernate.cache.NoCacheProvider, os.name=Windows 10, hibernate.cache.use_second_level_cache=false, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jdk1.8.0_161\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files\Java\jdk1.8.0_161\jre\bin;C:/Program Files/Java/jre1.8.0_161/bin/server;C:/Program Files/Java/jre1.8.0_161/bin;C:/Program Files/Java/jre1.8.0_161/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\IDM Computer Solutions\UltraEdit;C:\Users\windforce\AppData\Local\Microsoft\WindowsApps;;C:\Users\windforce\Desktop;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, hibernate.transaction.factory_class=org.springframework.orm.hibernate3.SpringTransactionFactory, os.version=10.0, user.home=C:\Users\windforce, user.timezone=GMT+08:00, java.awt.printerjob=sun.awt.windows.WPrinterJob, java.specification.version=1.8, file.encoding=UTF-8, user.name=windforce, java.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext\zipfs.jar;C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\test-classes;C:\Users\windforce\OneDrive\projects\common-ramcache\common-ramcache\target\classes;C:\Users\windforce\OneDrive\projects\common-utility\common-utility\target\classes;C:\Users\windforce\.m2\repository\org\slf4j\slf4j-api\1.7.25\slf4j-api-1.7.25.jar;C:\Users\windforce\.m2\repository\ch\qos\logback\logback-classic\1.2.3\logback-classic-1.2.3.jar;C:\Users\windforce\.m2\repository\ch\qos\logback\logback-core\1.2.3\logback-core-1.2.3.jar;C:\Users\windforce\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.25\jcl-over-slf4j-1.7.25.jar;C:\Users\windforce\.m2\repository\org\slf4j\jul-to-slf4j\1.7.25\jul-to-slf4j-1.7.25.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-context\3.1.2.RELEASE\spring-context-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-expression\3.1.2.RELEASE\spring-expression-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\com\alibaba\fastjson\1.2.46\fastjson-1.2.46.jar;C:\Users\windforce\.m2\repository\commons-lang\commons-lang\2.6\commons-lang-2.6.jar;C:\Users\windforce\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\windforce\.m2\repository\com\google\guava\guava\19.0\guava-19.0.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-orm\3.1.2.RELEASE\spring-orm-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-beans\3.1.2.RELEASE\spring-beans-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-core\3.1.2.RELEASE\spring-core-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\commons-logging\commons-logging\1.1.1\commons-logging-1.1.1.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-jdbc\3.1.2.RELEASE\spring-jdbc-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-tx\3.1.2.RELEASE\spring-tx-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-aop\3.1.2.RELEASE\spring-aop-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\aopalliance\aopalliance\1.0\aopalliance-1.0.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-asm\3.1.2.RELEASE\spring-asm-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\junit\junit\4.8.2\junit-4.8.2.jar;C:\Users\windforce\.m2\repository\org\springframework\spring-test\3.1.2.RELEASE\spring-test-3.1.2.RELEASE.jar;C:\Users\windforce\.m2\repository\aspectj\aspectjrt\1.5.3\aspectjrt-1.5.3.jar;C:\Users\windforce\.m2\repository\aspectj\aspectjweaver\1.5.3\aspectjweaver-1.5.3.jar;C:\Users\windforce\.m2\repository\cglib\cglib-nodep\2.2\cglib-nodep-2.2.jar;C:\Users\windforce\.m2\repository\org\hibernate\hibernate-core\3.6.10.Final\hibernate-core-3.6.10.Final.jar;C:\Users\windforce\.m2\repository\antlr\antlr\2.7.6\antlr-2.7.6.jar;C:\Users\windforce\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\windforce\.m2\repository\org\hibernate\hibernate-commons-annotations\3.2.0.Final\hibernate-commons-annotations-3.2.0.Final.jar;C:\Users\windforce\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.0-api\1.0.1.Final\hibernate-jpa-2.0-api-1.0.1.Final.jar;C:\Users\windforce\.m2\repository\javax\transaction\jta\1.1\jta-1.1.jar;C:\Users\windforce\.m2\repository\com\googlecode\concurrentlinkedhashmap\concurrentlinkedhashmap-lru\1.4.2\concurrentlinkedhashmap-lru-1.4.2.jar;C:\Users\windforce\.m2\repository\org\hibernate\hibernate-entitymanager\3.6.10.Final\hibernate-entitymanager-3.6.10.Final.jar;C:\Users\windforce\.m2\repository\cglib\cglib\2.2\cglib-2.2.jar;C:\Users\windforce\.m2\repository\asm\asm\3.1\asm-3.1.jar;C:\Users\windforce\.m2\repository\commons-dbcp\commons-dbcp\1.4\commons-dbcp-1.4.jar;C:\Users\windforce\.m2\repository\commons-pool\commons-pool\1.5.4\commons-pool-1.5.4.jar;C:\Users\windforce\.m2\repository\mysql\mysql-connector-java\5.1.18\mysql-connector-java-5.1.18.jar;C:\Users\windforce\.m2\repository\javassist\javassist\3.12.1.GA\javassist-3.12.1.GA.jar;C:\Users\windforce\.m2\repository\commons-collections\commons-collections\3.1\commons-collections-3.1.jar;C:\Users\windforce\eclipse\jee-oxygen\eclipse\configuration\org.eclipse.osgi\413\0\.cp;C:\Users\windforce\eclipse\jee-oxygen\eclipse\configuration\org.eclipse.osgi\412\0\.cp, hibernate.bytecode.use_reflection_optimizer=false, hibernate.show_sql=true, current_session_context_class=thread, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_161\jre, sun.java.command=org.eclipse.jdt.internal.junit.runner.RemoteTestRunner -version 3 -port 55787 -testLoaderClass org.eclipse.jdt.internal.junit4.runner.JUnit4TestLoader -loaderpluginname org.eclipse.jdt.junit4.runtime -classNames com.windforce.common.ramcache.persist.TimingPerformanceTest, hibernate.dialect=org.hibernate.dialect.MySQL5InnoDBDialect, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_161, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_161\jre\lib\ext;C:\Windows\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_161\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_161\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_161\jre\classes, java.vendor=Oracle Corporation, file.separator=\, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=create, hibernate.connection.provider_class=org.springframework.orm.hibernate3.LocalDataSourceConnectionProvider, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, sun.cpu.isalist=amd64}
+14:45:22.284[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.284[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.379[DEBUG][main]o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.windforce.common.ramcache.persist.Pet
+14:45:22.380[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Version select: select id from Pet where id =?
+14:45:22.380[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Snapshot select: select pet_.id, pet_.name as name1_, pet_.personId as personId1_ from Pet pet_ where pet_.id=?
+14:45:22.380[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Pet (name, personId, id) values (?, ?, ?)
+14:45:22.380[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Update 0: update Pet set name=?, personId=? where id=?
+14:45:22.380[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Pet where id=?
+14:45:22.381[DEBUG][main]o.h.p.entity.AbstractEntityPersister - Static SQL for entity: com.windforce.common.ramcache.persist.Person
+14:45:22.381[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Version select: select id from Person where id =?
+14:45:22.381[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Snapshot select: select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:22.381[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Insert 0: insert into Person (name, id) values (?, ?)
+14:45:22.381[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Update 0: update Person set name=? where id=?
+14:45:22.381[DEBUG][main]o.h.p.entity.AbstractEntityPersister -  Delete 0: delete from Person where id=?
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [NONE]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=?
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [READ]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=?
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [UPGRADE]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=? for update
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [UPGRADE_NOWAIT]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=? for update
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [FORCE]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=? for update
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [PESSIMISTIC_READ]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=? lock in share mode
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [PESSIMISTIC_WRITE]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=? for update
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [PESSIMISTIC_FORCE_INCREMENT]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=? for update
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [OPTIMISTIC]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=?
+14:45:22.393[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Pet [OPTIMISTIC_FORCE_INCREMENT]: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=?
+14:45:22.397[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.windforce.common.ramcache.persist.Pet: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=?
+14:45:22.397[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.windforce.common.ramcache.persist.Pet: select pet0_.id as id1_0_, pet0_.name as name1_0_, pet0_.personId as personId1_0_ from Pet pet0_ where pet0_.id=?
+14:45:22.398[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [NONE]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:22.398[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [READ]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:22.398[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [UPGRADE]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=? for update
+14:45:22.398[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [UPGRADE_NOWAIT]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=? for update
+14:45:22.398[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [FORCE]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=? for update
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [PESSIMISTIC_READ]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=? lock in share mode
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [PESSIMISTIC_WRITE]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=? for update
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [PESSIMISTIC_FORCE_INCREMENT]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=? for update
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [OPTIMISTIC]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for entity com.windforce.common.ramcache.persist.Person [OPTIMISTIC_FORCE_INCREMENT]: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for action ACTION_MERGE on entity com.windforce.common.ramcache.persist.Person: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:22.399[DEBUG][main]o.h.loader.entity.EntityLoader - Static select for action ACTION_REFRESH on entity com.windforce.common.ramcache.persist.Person: select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:22.485[DEBUG][main]o.h.impl.SessionFactoryObjectFactory - initializing class SessionFactoryObjectFactory
+14:45:22.486[DEBUG][main]o.h.impl.SessionFactoryObjectFactory - registered: 3393d594-e3eb-4c79-9b51-c2aa9893d7cc (unnamed)
+14:45:22.486[INFO ][main]o.h.impl.SessionFactoryObjectFactory - Not binding factory to JNDI, no JNDI name configured
+14:45:22.486[DEBUG][main]o.hibernate.impl.SessionFactoryImpl - instantiated session factory
+14:45:22.488[DEBUG][main]org.hibernate.cfg.Configuration - Processing hbm.xml files
+14:45:22.488[DEBUG][main]org.hibernate.cfg.Configuration - Process annotated classes
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing fk mappings (*ToOne and JoinedSubclass)
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing collection mappings
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing association property references
+14:45:22.489[DEBUG][main]org.hibernate.cfg.Configuration - processing foreign key constraints
+14:45:22.490[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.490[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - Processing hbm.xml files
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - Process annotated classes
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing fk mappings (*ToOne and JoinedSubclass)
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing extends queue
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing collection mappings
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing native query and ResultSetMapping mappings
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing association property references
+14:45:22.490[DEBUG][main]org.hibernate.cfg.Configuration - processing foreign key constraints
+14:45:22.491[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.491[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.491[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.491[DEBUG][main]o.h.i.f.DefaultIdentifierGeneratorFactory - Setting dialect [org.hibernate.dialect.MySQL5InnoDBDialect]
+14:45:22.493[INFO ][main]o.h.tool.hbm2ddl.SchemaExport - Running hbm2ddl schema export
+14:45:22.493[DEBUG][main]o.h.tool.hbm2ddl.SchemaExport - import file not found: /import.sql
+14:45:22.493[INFO ][main]o.h.tool.hbm2ddl.SchemaExport - exporting generated schema to database
+14:45:22.493[DEBUG][main]o.h.tool.hbm2ddl.SchemaExport - drop table if exists Person
+14:45:22.500[DEBUG][main]o.h.tool.hbm2ddl.SchemaExport - drop table if exists Pet
+14:45:22.510[DEBUG][main]o.h.tool.hbm2ddl.SchemaExport - create table Person (id integer not null, name varchar(255), primary key (id)) ENGINE=InnoDB
+14:45:22.524[DEBUG][main]o.h.tool.hbm2ddl.SchemaExport - create table Pet (id integer not null, name varchar(255), personId integer, primary key (id)) ENGINE=InnoDB
+14:45:22.539[DEBUG][main]o.h.tool.hbm2ddl.SchemaExport - create index person on Pet (personId)
+14:45:22.551[INFO ][main]o.h.tool.hbm2ddl.SchemaExport - schema export complete
+14:45:22.552[DEBUG][main]o.hibernate.impl.SessionFactoryImpl - Checking 0 named HQL queries
+14:45:22.552[DEBUG][main]o.hibernate.impl.SessionFactoryImpl - Checking 0 named SQL queries
+14:45:22.553[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'sessionFactory'
+14:45:22.553[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating shared instance of singleton bean 'accessor'
+14:45:22.553[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Creating instance of bean 'accessor'
+14:45:22.555[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Eagerly caching bean 'accessor' to allow for resolving potential circular references
+14:45:22.560[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'sessionFactory'
+14:45:22.562[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Invoking afterPropertiesSet() on bean with name 'accessor'
+14:45:22.562[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Finished creating instance of bean 'accessor'
+14:45:22.562[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0'
+14:45:22.563[DEBUG][main]o.s.c.s.GenericApplicationContext - Unable to locate LifecycleProcessor with name 'lifecycleProcessor': using default [org.springframework.context.support.DefaultLifecycleProcessor@10876a6]
+14:45:22.563[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+14:45:22.564[DEBUG][main]o.s.test.context.TestContext - Storing ApplicationContext for test class [class com.windforce.common.ramcache.persist.TimingPerformanceTest] in cache under key [[MergedContextConfiguration@55141def testClass = TimingPerformanceTest, locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']].
+14:45:22.569[DEBUG][main]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'accessor'
+14:45:22.575[DEBUG][main]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:22]执行
+14:45:22.582[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:22.602[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179225
+14:45:22.624[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:22.624[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:22.624[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:22.624[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:22.628[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 4, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 5, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 6, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 7, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 8, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 9, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 0, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 1, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 2, using strategy: org.hibernate.id.Assigned
+14:45:22.635[DEBUG][main]o.h.e.def.AbstractSaveEventListener - generated identifier: 3, using strategy: org.hibernate.id.Assigned
+14:45:22.636[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:22.637[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:22.638[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 10 insertions, 0 updates, 0 deletions to 10 objects
+14:45:22.638[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:3, id=3}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:4, id=4}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:1, id=1}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:2, id=2}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:7, id=7}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:8, id=8}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:5, id=5}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:6, id=6}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:9, id=9}
+14:45:22.639[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=name:0, id=0}
+14:45:22.641[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:22.641[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.649[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.649[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.649[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.649[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.649[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:22.650[DEBUG][main]org.hibernate.SQL - insert into Person (name, id) values (?, ?)
+14:45:22.650[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 10
+14:45:22.651[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:22.653[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:22.653[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:22.654[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:22.654[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:22.654[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:22.654[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:22.654[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:22.654[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:22.654[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:22.654[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179226
+14:45:22.654[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:22.654[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:22.654[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:22.654[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:22.655[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:22.655[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:22.655[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:22.655[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:22.655[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:22.655[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:22.655[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:22.655[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:22.655[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:22.655[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179226
+14:45:22.655[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:22.656[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:22.656[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:22.656[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:22.656[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:22.656[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:22.656[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:22.656[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:22.656[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:22.656[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:22.656[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:22.656[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:22.656[DEBUG][main]c.w.c.r.persist.TimingConsumer - 定时入库[test]入库[10]条数据耗时[83]
+14:45:32.572[DEBUG][定时任务:定时存储任务1]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:32]执行
+14:45:33.572[DEBUG][定时任务:定时存储任务1]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:33]执行
+14:45:34.573[DEBUG][定时任务:定时存储任务2]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:34]执行
+14:45:35.058[DEBUG][main]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:35]执行
+14:45:35.058[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:35.058[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179350
+14:45:35.059[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:35.059[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:35.059[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:35.059[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:35.059[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:35.059[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:35.059[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:35.059[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:35.059[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:35.059[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:35.059[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:35.059[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:35.060[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:35.060[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179350
+14:45:35.060[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:35.060[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:35.060[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:35.060[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:35.063[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:35.063[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:35.065[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 10 updates, 0 deletions to 10 objects
+14:45:35.065[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:3, id=3}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:4, id=4}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:1, id=1}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:2, id=2}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:7, id=7}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:8, id=8}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:5, id=5}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:6, id=6}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:9, id=9}
+14:45:35.065[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:0, id=0}
+14:45:35.065[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:35.065[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.065[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.065[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.065[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.065[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.065[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.065[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.065[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.066[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.066[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.066[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.066[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.066[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.066[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.066[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.066[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.066[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.066[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - reusing prepared statement
+14:45:35.066[DEBUG][main]org.hibernate.SQL - update Person set name=? where id=?
+14:45:35.066[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 10
+14:45:35.068[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:35.068[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:35.070[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:35.071[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:35.071[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:35.071[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:35.071[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:35.071[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:35.071[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:35.071[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179350
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:35.071[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:35.071[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:35.071[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:35.072[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:35.072[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:35.072[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:35.072[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:35.072[DEBUG][main]c.w.c.r.persist.TimingConsumer - 定时入库[test]入库[10]条数据耗时[14]
+14:45:35.573[DEBUG][定时任务:定时存储任务1]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:35]执行
+14:45:36.573[DEBUG][定时任务:定时存储任务3]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:36]执行
+14:45:37.572[DEBUG][定时任务:定时存储任务2]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:37]执行
+14:45:38.573[DEBUG][定时任务:定时存储任务4]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:38]执行
+14:45:39.574[DEBUG][定时任务:定时存储任务1]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:39]执行
+14:45:40.314[DEBUG][main]c.w.c.r.persist.TimingConsumer - 定时入库[test]开始[2018-02-12 14:45:40]执行
+14:45:40.314[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.314[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.317[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#4]
+14:45:40.317[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.317[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.317[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.318[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.318[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#4]
+14:45:40.321[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.321[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.323[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#4]
+14:45:40.323[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#4]
+14:45:40.323[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.323[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.323[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.323[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.323[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.323[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.323[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.323[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.323[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.323[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:4, id=4}
+14:45:40.323[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.323[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.323[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.324[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.324[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.326[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.326[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.326[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.327[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.328[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.328[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.328[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.328[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.328[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.328[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.328[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:4, id=4}
+14:45:40.328[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.328[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.328[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.329[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.329[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.329[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.329[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.329[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.329[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.330[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#5]
+14:45:40.330[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.330[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.330[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.330[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.330[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#5]
+14:45:40.330[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.330[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.330[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#5]
+14:45:40.330[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#5]
+14:45:40.330[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.330[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.330[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.330[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.330[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.330[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.331[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.331[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.331[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.331[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:5, id=5}
+14:45:40.331[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.331[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.331[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.331[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.331[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.331[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.331[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.331[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.331[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.331[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.331[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.331[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.331[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.331[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.331[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.331[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:5, id=5}
+14:45:40.331[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.331[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.332[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.333[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.333[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.333[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.333[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.333[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.333[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.333[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#6]
+14:45:40.333[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.333[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.333[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.333[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.334[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#6]
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.334[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#6]
+14:45:40.334[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#6]
+14:45:40.334[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.334[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.334[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.334[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.334[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.334[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.334[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.334[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.334[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:6, id=6}
+14:45:40.334[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.334[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.334[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.334[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.334[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.335[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.335[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.335[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.335[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.335[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.335[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.335[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.335[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:6, id=6}
+14:45:40.335[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.335[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.335[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.336[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.336[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.336[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.336[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.336[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.336[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.336[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#7]
+14:45:40.337[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.337[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.337[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.337[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.337[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#7]
+14:45:40.337[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.337[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.337[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#7]
+14:45:40.337[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#7]
+14:45:40.337[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.337[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.337[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.337[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.338[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.338[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.338[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.338[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.338[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.338[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:7, id=7}
+14:45:40.338[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.338[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.338[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.338[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.338[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.338[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.338[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.338[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.339[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.339[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.339[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.339[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.339[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.339[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.339[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.339[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:7, id=7}
+14:45:40.339[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.339[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.339[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.340[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.340[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.340[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.340[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.340[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.340[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.340[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#8]
+14:45:40.340[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.340[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.340[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.341[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#8]
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.341[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#8]
+14:45:40.341[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#8]
+14:45:40.341[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.341[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.341[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.341[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.341[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.341[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.341[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.341[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.341[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:8, id=8}
+14:45:40.341[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.341[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.341[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.341[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.341[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.342[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.342[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.342[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.342[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.342[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.343[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.343[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.343[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:8, id=8}
+14:45:40.343[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.343[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.343[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.344[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.344[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.344[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.344[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.344[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.344[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.344[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#9]
+14:45:40.344[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.344[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.344[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.345[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#9]
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.345[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#9]
+14:45:40.345[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#9]
+14:45:40.345[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.345[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.345[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.345[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.345[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.345[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.345[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.345[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.345[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:9, id=9}
+14:45:40.345[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.345[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.345[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.345[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.345[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.346[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.346[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.346[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.346[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.346[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.346[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.346[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.346[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:9, id=9}
+14:45:40.346[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.346[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.346[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.347[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.348[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.348[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.348[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.348[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.348[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.348[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#0]
+14:45:40.348[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.348[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.348[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.348[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.349[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#0]
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.349[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#0]
+14:45:40.349[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#0]
+14:45:40.349[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.349[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.349[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.349[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.349[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.349[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.349[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.349[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.349[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:0, id=0}
+14:45:40.349[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.349[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.349[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.349[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.349[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.350[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.350[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.350[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.350[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.350[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.350[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.350[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.350[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:0, id=0}
+14:45:40.350[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.350[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.351[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.352[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.352[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.352[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.352[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.352[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.352[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.352[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#1]
+14:45:40.352[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.352[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.352[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.352[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.353[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#1]
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.353[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#1]
+14:45:40.353[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#1]
+14:45:40.353[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.353[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.353[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.353[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.353[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.353[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.353[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.353[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.353[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:1, id=1}
+14:45:40.353[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.353[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.353[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.353[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.353[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.354[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.354[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.354[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.354[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.354[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.354[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.354[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.354[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:1, id=1}
+14:45:40.354[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.354[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.354[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.355[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.355[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.355[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.355[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.356[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.356[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.356[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#2]
+14:45:40.356[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.356[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.356[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.356[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.356[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#2]
+14:45:40.356[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.356[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.356[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#2]
+14:45:40.356[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#2]
+14:45:40.356[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.356[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.356[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.356[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.356[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.357[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.357[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:2, id=2}
+14:45:40.357[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.357[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.357[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.357[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.357[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.357[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.357[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.357[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.357[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.357[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.357[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.357[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.358[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:2, id=2}
+14:45:40.358[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.358[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.358[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.359[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.359[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.359[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.359[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.359[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.359[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.359[DEBUG][main]org.hibernate.loader.Loader - loading entity: [com.windforce.common.ramcache.persist.Person#3]
+14:45:40.359[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.359[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.359[DEBUG][main]org.hibernate.SQL - select person0_.id as id0_0_, person0_.name as name0_0_ from Person person0_ where person0_.id=?
+14:45:40.359[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open ResultSet (open ResultSets: 0, globally: 0)
+14:45:40.359[DEBUG][main]org.hibernate.loader.Loader - result row: EntityKey[com.windforce.common.ramcache.persist.Person#3]
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close ResultSet (open ResultSets: 1, globally: 1)
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.360[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - resolving associations for [com.windforce.common.ramcache.persist.Person#3]
+14:45:40.360[DEBUG][main]org.hibernate.engine.TwoPhaseLoad - done materializing entity [com.windforce.common.ramcache.persist.Person#3]
+14:45:40.360[DEBUG][main]o.h.e.StatefulPersistenceContext - initializing non-lazy collections
+14:45:40.360[DEBUG][main]org.hibernate.loader.Loader - done entity load
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.360[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 0 deletions to 1 objects
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.360[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.360[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:3, id=3}
+14:45:40.360[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.360[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.360[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.360[DEBUG][main]org.hibernate.SQL - select person_.id, person_.name as name0_ from Person person_ where person_.id=?
+14:45:40.360[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.360[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - processing flush-time cascades
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - dirty checking collections
+14:45:40.360[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 insertions, 0 updates, 1 deletions to 1 objects
+14:45:40.361[DEBUG][main]o.h.e.d.AbstractFlushingEventListener - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+14:45:40.361[DEBUG][main]org.hibernate.pretty.Printer - listing entities:
+14:45:40.361[DEBUG][main]org.hibernate.pretty.Printer - com.windforce.common.ramcache.persist.Person{name=new:name:3, id=3}
+14:45:40.361[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to open PreparedStatement (open PreparedStatements: 0, globally: 0)
+14:45:40.361[DEBUG][main]org.hibernate.SQL - delete from Person where id=?
+14:45:40.361[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - Executing batch size: 1
+14:45:40.362[DEBUG][main]org.hibernate.jdbc.AbstractBatcher - about to close PreparedStatement (open PreparedStatements: 1, globally: 1)
+14:45:40.362[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.362[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.362[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.362[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.362[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.362[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:40.362[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.362[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:40.362[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:40.362[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.363[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.363[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.363[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.363[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.363[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.363[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.363[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Opening Hibernate Session
+14:45:40.363[DEBUG][main]org.hibernate.impl.SessionImpl - opened session at timestamp: 15184179403
+14:45:40.363[DEBUG][main]o.h.transaction.JDBCTransaction - begin
+14:45:40.363[DEBUG][main]org.hibernate.jdbc.ConnectionManager - opening JDBC connection
+14:45:40.364[DEBUG][main]o.h.transaction.JDBCTransaction - current autocommit status: true
+14:45:40.364[DEBUG][main]o.h.transaction.JDBCTransaction - disabling autocommit
+14:45:40.364[DEBUG][main]o.h.transaction.JDBCTransaction - commit
+14:45:40.364[DEBUG][main]o.h.transaction.JDBCTransaction - re-enabling autocommit
+14:45:40.364[DEBUG][main]o.h.transaction.JDBCTransaction - committed JDBC Connection
+14:45:40.364[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.364[DEBUG][main]o.s.orm.hibernate3.HibernateTemplate - Eagerly flushing Hibernate session
+14:45:40.364[DEBUG][main]o.s.o.hibernate3.SessionFactoryUtils - Closing Hibernate Session
+14:45:40.364[DEBUG][main]org.hibernate.jdbc.ConnectionManager - releasing JDBC connection [ (open PreparedStatements: 0, globally: 0) (open ResultSets: 0, globally: 0)]
+14:45:40.364[DEBUG][main]org.hibernate.jdbc.ConnectionManager - transaction completed on session with on_close connection release mode; be sure to close the session to release JDBC resources!
+14:45:40.364[DEBUG][main]c.w.c.r.persist.TimingConsumer - 定时入库[test]入库[10]条数据耗时[51]
+14:45:40.366[DEBUG][main]o.s.t.c.s.DirtiesContextTestExecutionListener - After test method: context [[TestContext@1aafa419 testClass = TimingPerformanceTest, testInstance = com.windforce.common.ramcache.persist.TimingPerformanceTest@47eaca72, testMethod = test@TimingPerformanceTest, testException = [null], mergedContextConfiguration = [MergedContextConfiguration@55141def testClass = TimingPerformanceTest, locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], class dirties context [false], class mode [null], method dirties context [false].
+14:45:40.366[DEBUG][main]o.s.t.c.s.DirtiesContextTestExecutionListener - After test class: context [[TestContext@1aafa419 testClass = TimingPerformanceTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@55141def testClass = TimingPerformanceTest, locations = '{classpath:/com/windforce/common/ramcache/persist/TimingPerformanceTest-context.xml}', classes = '{}', activeProfiles = '{}', contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader']]], dirtiesContext [false].
+14:45:40.368[INFO ][Thread-1]o.s.c.s.GenericApplicationContext - Closing org.springframework.context.support.GenericApplicationContext@5b12b668: startup date [Mon Feb 12 14:45:21 GMT+08:00 2018]; root of context hierarchy
+14:45:40.368[DEBUG][Thread-1]o.s.b.f.s.DefaultListableBeanFactory - Returning cached instance of singleton bean 'lifecycleProcessor'
+14:45:40.368[INFO ][Thread-1]o.s.b.f.s.DefaultListableBeanFactory - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@59402b8f: defining beans [propertyConfigurer,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,dataSource,sessionFactory,accessor,org.springframework.context.annotation.ConfigurationClassPostProcessor$ImportAwareBeanPostProcessor#0]; root of factory hierarchy
+14:45:40.370[DEBUG][Thread-1]o.s.b.f.s.DisposableBeanAdapter - Invoking destroy() on bean with name 'sessionFactory'
+14:45:40.370[INFO ][Thread-1]o.s.o.h.a.AnnotationSessionFactoryBean - Closing Hibernate SessionFactory
+14:45:40.370[INFO ][Thread-1]o.hibernate.impl.SessionFactoryImpl - closing
+14:45:40.370[DEBUG][Thread-1]o.s.b.f.s.DisposableBeanAdapter - Invoking destroy method 'close' on bean with name 'dataSource'
