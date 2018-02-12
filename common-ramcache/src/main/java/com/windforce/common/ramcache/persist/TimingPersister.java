@@ -2,7 +2,6 @@ package com.windforce.common.ramcache.persist;
 
 import java.util.ArrayList;
 import java.util.Collection;
-import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
@@ -169,7 +168,7 @@ public class TimingPersister implements Persister {
 	}
 
 	public void flush() {
-		consumer.interrupt();
+		consumer.flush();
 	}
 
 	public TimingConsumer getConsumer() {

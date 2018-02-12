@@ -6,8 +6,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 索引属性值更新参数声明
- * @author frank
+ * 
+ * @author Kuang Hao
+ * @since v1.0 2018年2月12日
+ *
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ ElementType.FIELD, ElementType.PARAMETER })

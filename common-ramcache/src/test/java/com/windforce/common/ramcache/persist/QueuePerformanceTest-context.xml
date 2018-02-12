@@ -60,7 +60,7 @@ http://www.my9yu.com/common/resource http://www.my9yu.com/common/resource/resour
 		</property>
 	</bean>
 	
-	<bean id="accessor" class="com.my9yu.common.ramcache.orm.impl.HibernateAccessor">
+	<bean id="accessor" class="com.windforce.common.ramcache.orm.impl.HibernateAccessor">
 		<property name="sessionFactory" ref="sessionFactory" />
 	</bean>
 

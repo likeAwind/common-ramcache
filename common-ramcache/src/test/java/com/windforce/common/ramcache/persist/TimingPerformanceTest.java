@@ -17,22 +17,22 @@ import com.windforce.common.ramcache.persist.TimingPersister;
 @RunWith(SpringJUnit4ClassRunner.class)
 @ContextConfiguration
 public class TimingPerformanceTest implements ApplicationContextAware {
-	
+
 	private TimingPersister persister;
 
-	private int total = 10000;
-	
+	private int total = 1000000;
+
 	@Test
 	public void test() throws InterruptedException {
 		Accessor accessor = applicationContext.getBean(Accessor.class);
 		persister = new TimingPersister();
-		persister.initialize("test", accessor, "0 0 0 * * *");
-		
+		persister.initialize("test", accessor, "1");
+
 		for (int i = 0; i < total; i++) {
 			persister.put(Element.saveOf(new Person(i, "name:" + i)));
 		}
-		persister.flush();
 		long start = System.currentTimeMillis();
+		persister.flush();
 		while (true) {
 			if (persister.getConsumer().getState() == TimingConsumerState.RUNNING) {
 				Thread.yield();
@@ -41,12 +41,12 @@ public class TimingPerformanceTest implements ApplicationContextAware {
 			}
 		}
 		System.out.println("插入完成时间:" + (System.currentTimeMillis() - start));
-		
+
 		for (int i = 0; i < total; i++) {
 			persister.put(Element.updateOf(new Person(i, "new:name:" + i)));
 		}
-		persister.flush();
 		start = System.currentTimeMillis();
+		persister.flush();
 		while (true) {
 			if (persister.getConsumer().getState() == TimingConsumerState.RUNNING) {
 				Thread.yield();
@@ -60,8 +60,8 @@ public class TimingPerformanceTest implements ApplicationContextAware {
 		for (int i = 0; i < total; i++) {
 			persister.put(Element.removeOf(i, Person.class));
 		}
-		persister.flush();
 		start = System.currentTimeMillis();
+		persister.flush();
 		while (true) {
 			if (persister.getConsumer().getState() == TimingConsumerState.RUNNING) {
 				Thread.yield();
@@ -69,11 +69,12 @@ public class TimingPerformanceTest implements ApplicationContextAware {
 				break;
 			}
 		}
+		TimingConsumer.shutdownExecutor();
 		System.out.println("删除完成时间:" + (System.currentTimeMillis() - start));
 	}
-	
+
 	private ConfigurableApplicationContext applicationContext;
-	
+
 	@Override
 	public void setApplicationContext(ApplicationContext applicationContext) throws BeansException {
 		this.applicationContext = (ConfigurableApplicationContext) applicationContext;

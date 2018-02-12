@@ -38,8 +38,7 @@ public class Person implements IEntity<Integer> {
 
 	@Override
 	public boolean serialize() {
-		// TODO Auto-generated method stub
-		return false;
+		return true;
 	}
 
 }

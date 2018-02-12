@@ -21,9 +21,10 @@ import com.windforce.common.ramcache.exception.StateException;
 import com.windforce.common.utility.ReflectionUtility;
 
 /**
- * 缓存的实体配置信息对象
  * 
- * @author frank
+ * @author Kuang Hao
+ * @since v1.0 2018年2月12日
+ *
  */
 @SuppressWarnings("rawtypes")
 public class CachedEntityConfig implements Serializable {
@@ -54,32 +55,27 @@ public class CachedEntityConfig implements Serializable {
 		}
 		Cached cached = clz.getAnnotation(Cached.class);
 		if (!constants.containsKey(cached.size())) {
-			throw new ConfigurationException("缓存实体[" + clz.getName()
-					+ "]要求的缓存数量定义[" + cached.size() + "]不存在");
+			throw new ConfigurationException("缓存实体[" + clz.getName() + "]要求的缓存数量定义[" + cached.size() + "]不存在");
 		}
 		switch (cached.unit()) {
 		case ENTITY:
 			if (ReflectionUtility.getDeclaredFieldsWith(clz, Index.class).length > 0) {
-				throw new ConfigurationException("缓存单位为[" + cached.unit()
-						+ "]的实体[" + clz.getName() + "]不支持索引属性配置");
+				throw new ConfigurationException("缓存单位为[" + cached.unit() + "]的实体[" + clz.getName() + "]不支持索引属性配置");
 			}
 			break;
 		case REGION:
 			if (ReflectionUtility.getDeclaredFieldsWith(clz, Unique.class).length > 0) {
-				throw new ConfigurationException("缓存单位为[" + cached.unit()
-						+ "]的实体[" + clz.getName() + "]不支持唯一值属性配置");
+				throw new ConfigurationException("缓存单位为[" + cached.unit() + "]的实体[" + clz.getName() + "]不支持唯一值属性配置");
 			}
 			break;
 		default:
-			throw new ConfigurationException("实体[" + clz.getName()
-					+ "]使用了未支持的缓存单位[" + cached.unit() + "]配置");
+			throw new ConfigurationException("实体[" + clz.getName() + "]使用了未支持的缓存单位[" + cached.unit() + "]配置");
 		}
 		return true;
 	}
 
 	/** 构造方法 */
-	public static CachedEntityConfig valueOf(Class<? extends IEntity> clz,
-			Map<String, Integer> constants) {
+	public static CachedEntityConfig valueOf(Class<? extends IEntity> clz, Map<String, Integer> constants) {
 		CachedEntityConfig result = new CachedEntityConfig();
 		result.clz = clz;
 		result.cached = clz.getAnnotation(Cached.class);
@@ -87,14 +83,11 @@ public class CachedEntityConfig implements Serializable {
 		result.cachedSize = constants.get(result.cached.size());
 
 		// 初始化唯一属性域信息
-		Field[] fields = ReflectionUtility.getDeclaredFieldsWith(clz,
-				Unique.class);
+		Field[] fields = ReflectionUtility.getDeclaredFieldsWith(clz, Unique.class);
 		if (fields != null && fields.length > 0) {
 			// 初始化存储空间
-			HashMap<String, Unique> uniques = new HashMap<String, Unique>(
-					fields.length);
-			HashMap<String, Field> uniqueFields = new HashMap<String, Field>(
-					fields.length);
+			HashMap<String, Unique> uniques = new HashMap<String, Unique>(fields.length);
+			HashMap<String, Field> uniqueFields = new HashMap<String, Field>(fields.length);
 			HashMap<String, ReentrantReadWriteLock> uniqueLocks = new HashMap<String, ReentrantReadWriteLock>(
 					fields.length);
 
@@ -118,10 +111,8 @@ public class CachedEntityConfig implements Serializable {
 		fields = ReflectionUtility.getDeclaredFieldsWith(clz, Index.class);
 		if (fields != null && fields.length > 0) {
 			// 初始化存储空间
-			HashMap<String, Index> indexs = new HashMap<String, Index>(
-					fields.length);
-			HashMap<String, Field> indexFields = new HashMap<String, Field>(
-					fields.length);
+			HashMap<String, Index> indexs = new HashMap<String, Index>(fields.length);
+			HashMap<String, Field> indexFields = new HashMap<String, Field>(fields.length);
 			HashMap<String, ReentrantReadWriteLock> indexLocks = new HashMap<String, ReentrantReadWriteLock>(
 					fields.length);
 
@@ -199,13 +190,11 @@ public class CachedEntityConfig implements Serializable {
 	 */
 	public String getIndexQuery(String name) {
 		if (indexs == null) {
-			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name + "]无效");
 		}
 		Index index = indexs.get(name);
 		if (index == null) {
-			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name + "]无效");
 		}
 		return index.query();
 	}
@@ -218,13 +207,11 @@ public class CachedEntityConfig implements Serializable {
 	 */
 	public Map<String, Object> getIndexValues(IEntity entity) {
 		if (indexFields == null) {
-			throw new StateException("实体[" + clz.getName()
-					+ "]没有索引属性配置无法获取索引属性值");
+			throw new StateException("实体[" + clz.getName() + "]没有索引属性配置无法获取索引属性值");
 		}
 
 		try {
-			Map<String, Object> result = new HashMap<String, Object>(
-					indexFields.size());
+			Map<String, Object> result = new HashMap<String, Object>(indexFields.size());
 			for (Entry<String, Field> entry : indexFields.entrySet()) {
 				Object value = entry.getValue().get(entity);
 				result.put(entry.getKey(), value);
@@ -262,8 +249,7 @@ public class CachedEntityConfig implements Serializable {
 	public ReadLock getIndexReadLock(String name) {
 		ReentrantReadWriteLock lock = indexLocks.get(name);
 		if (lock == null) {
-			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name + "]无效");
 		}
 		return lock.readLock();
 	}
@@ -278,8 +264,7 @@ public class CachedEntityConfig implements Serializable {
 	public WriteLock getIndexWriteLock(String name) {
 		ReentrantReadWriteLock lock = indexLocks.get(name);
 		if (lock == null) {
-			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的索引属性名[" + name + "]无效");
 		}
 		return lock.writeLock();
 	}
@@ -312,13 +297,11 @@ public class CachedEntityConfig implements Serializable {
 	 */
 	public String getUniqueQuery(String name) {
 		if (uniques == null) {
-			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name + "]无效");
 		}
 		Unique unique = uniques.get(name);
 		if (unique == null) {
-			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name + "]无效");
 		}
 		return unique.query();
 	}
@@ -333,8 +316,7 @@ public class CachedEntityConfig implements Serializable {
 	public ReadLock getUniqueReadLock(String name) {
 		ReentrantReadWriteLock lock = uniqueLocks.get(name);
 		if (lock == null) {
-			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name + "]无效");
 		}
 		return lock.readLock();
 	}
@@ -349,16 +331,14 @@ public class CachedEntityConfig implements Serializable {
 	public WriteLock getUniqueWriteLock(String name) {
 		ReentrantReadWriteLock lock = uniqueLocks.get(name);
 		if (lock == null) {
-			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name
-					+ "]无效");
+			throw new StateException("实体[" + clz.getName() + "]的唯一属性名[" + name + "]无效");
 		}
 		return lock.writeLock();
 	}
 
 	/** 创建唯一属性缓存 */
 	public HashMap<String, DualHashBidiMap> buildUniqueCache() {
-		HashMap<String, DualHashBidiMap> result = new HashMap<String, DualHashBidiMap>(
-				uniqueFields.size());
+		HashMap<String, DualHashBidiMap> result = new HashMap<String, DualHashBidiMap>(uniqueFields.size());
 		for (String name : uniqueFields.keySet()) {
 			DualHashBidiMap map = new DualHashBidiMap();
 			result.put(name, map);
@@ -374,13 +354,11 @@ public class CachedEntityConfig implements Serializable {
 	 */
 	public Map<String, Object> getUniqueValues(IEntity entity) {
 		if (uniqueFields == null) {
-			throw new StateException("实体[" + clz.getName()
-					+ "]没有唯一属性配置无法获取唯一属性值");
+			throw new StateException("实体[" + clz.getName() + "]没有唯一属性配置无法获取唯一属性值");
 		}
 
 		try {
-			Map<String, Object> result = new HashMap<String, Object>(
-					uniqueFields.size());
+			Map<String, Object> result = new HashMap<String, Object>(uniqueFields.size());
 			for (Entry<String, Field> entry : uniqueFields.entrySet()) {
 				Object value = entry.getValue().get(entity);
 				result.put(entry.getKey(), value);

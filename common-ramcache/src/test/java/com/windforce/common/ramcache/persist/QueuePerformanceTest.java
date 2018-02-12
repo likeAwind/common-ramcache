@@ -19,7 +19,7 @@ public class QueuePerformanceTest implements ApplicationContextAware {
 	
 	private QueuePersister persister;
 
-	private int total = 10000;
+	private int total = 10;
 	
 	@Test
 	public void test() throws Exception {

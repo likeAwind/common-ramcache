@@ -23,6 +23,7 @@ import com.windforce.common.ramcache.persist.Persister;
 import com.windforce.common.ramcache.persist.PersisterConfig;
 import com.windforce.common.ramcache.persist.PersisterType;
 import com.windforce.common.ramcache.persist.QueuePersister;
+import com.windforce.common.ramcache.persist.TimingConsumer;
 import com.windforce.common.ramcache.persist.TimingPersister;
 import com.windforce.common.ramcache.service.EntityCacheService;
 import com.windforce.common.ramcache.service.EntityCacheServiceImpl;
@@ -31,6 +32,7 @@ import com.windforce.common.ramcache.service.RegionCacheServiceImpl;
 
 /**
  * 缓存服务管理器
+ * 
  * @author frank
  */
 @SuppressWarnings("rawtypes")
@@ -60,7 +62,7 @@ public class ServiceManager implements ServiceManagerMBean {
 		Assert.notNull(accessor, "存储器不能为空");
 		Assert.notNull(querier, "查询器不能为空");
 		Assert.notNull(entityClasses, "实体类配置集合不能为空");
-		
+
 		this.accessor = accessor;
 		this.querier = querier;
 		this.persisterConfigs = persisterConfigs;
@@ -74,7 +76,7 @@ public class ServiceManager implements ServiceManagerMBean {
 			CachedEntityConfig config = CachedEntityConfig.valueOf(clz, constants);
 			entityConfigs.put(clz, config);
 		}
-		
+
 		// 注册MBean
 		try {
 			MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
@@ -87,7 +89,9 @@ public class ServiceManager implements ServiceManagerMBean {
 
 	/**
 	 * 获取指定实体的缓存服务对象{@link EntityCacheService}
-	 * @param clz 实体类
+	 * 
+	 * @param clz
+	 *            实体类
 	 * @return 不存在会返回null
 	 */
 	public EntityCacheService getEntityService(Class<? extends IEntity> clz) {
@@ -98,17 +102,19 @@ public class ServiceManager implements ServiceManagerMBean {
 		if (!config.cacheUnitIs(CacheUnit.ENTITY)) {
 			throw new StateException("实体[" + clz.getName() + "]的缓存单位不是[" + CacheUnit.ENTITY + "]");
 		}
-		
+
 		EntityCacheService result = entityServices.get(clz);
 		if (result != null) {
 			return result;
 		}
 		return createEntityService(clz);
 	}
-	
+
 	/**
 	 * 获取指定实体的缓存服务对象{@link RegionCacheService}
-	 * @param clz 实体类
+	 * 
+	 * @param clz
+	 *            实体类
 	 * @return 不存在会返回null
 	 */
 	public RegionCacheService getRegionService(Class<? extends IEntity> clz) {
@@ -119,7 +125,7 @@ public class ServiceManager implements ServiceManagerMBean {
 		if (!config.cacheUnitIs(CacheUnit.REGION)) {
 			throw new StateException("实体[" + clz.getName() + "]的缓存单位不是[" + CacheUnit.REGION + "]");
 		}
-		
+
 		RegionCacheService result = regionServices.get(clz);
 		if (result != null) {
 			return result;
@@ -135,13 +141,15 @@ public class ServiceManager implements ServiceManagerMBean {
 		for (Persister queue : persisters.values()) {
 			queue.shutdown();
 		}
+		// 关闭线程
+		TimingConsumer.shutdownExecutor();
 	}
-	
+
 	// JMX 的管理方法实现
 
 	@Override
 	public Map<String, Map<String, String>> getAllPersisterInfo() {
-		HashMap<String, Map<String, String>> result = new HashMap<String, Map<String,String>>();
+		HashMap<String, Map<String, String>> result = new HashMap<String, Map<String, String>>();
 		for (Entry<String, Persister> entry : persisters.entrySet()) {
 			result.put(entry.getKey(), entry.getValue().getInfo());
 		}
@@ -170,16 +178,16 @@ public class ServiceManager implements ServiceManagerMBean {
 	}
 
 	// 内部方法
-	
+
 	/** 创建缓存服务对象 */
 	private synchronized RegionCacheService createRegionService(Class<? extends IEntity> clz) {
 		if (regionServices.containsKey(clz)) {
 			return regionServices.get(clz);
 		}
-		
+
 		CachedEntityConfig config = entityConfigs.get(clz);
-		Persister queue = getPersister(config.getPersisterName()); 
-		
+		Persister queue = getPersister(config.getPersisterName());
+
 		// 创建实体缓存服务对象
 		RegionCacheServiceImpl result = new RegionCacheServiceImpl();
 		result.initialize(config, queue, accessor, querier);
@@ -192,10 +200,10 @@ public class ServiceManager implements ServiceManagerMBean {
 		if (entityServices.containsKey(clz)) {
 			return entityServices.get(clz);
 		}
-		
+
 		CachedEntityConfig config = entityConfigs.get(clz);
-		Persister queue = getPersister(config.getPersisterName()); 
-		
+		Persister queue = getPersister(config.getPersisterName());
+
 		// 创建实体缓存服务对象
 		EntityCacheServiceImpl result = new EntityCacheServiceImpl();
 		result.initialize(config, queue, accessor, querier);
@@ -209,7 +217,7 @@ public class ServiceManager implements ServiceManagerMBean {
 		if (result != null) {
 			return result;
 		}
-		
+
 		if (!persisterConfigs.containsKey(name)) {
 			throw new ConfigurationException("持久化处理器[" + name + "]的配置信息不存在");
 		}

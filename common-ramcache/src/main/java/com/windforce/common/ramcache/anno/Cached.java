@@ -6,8 +6,10 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 缓存配置声明
- * @author frank
+ * 
+ * @author Kuang Hao
+ * @since v1.0 2018年2月12日
+ *
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.TYPE)
@@ -27,7 +29,7 @@ public @interface Cached {
 
 	/** 缓存管理类型 */
 	CacheType type() default CacheType.LRU;
-	
+
 	/** 缓存单位 */
 	CacheUnit unit() default CacheUnit.ENTITY;
 
