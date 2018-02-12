@@ -8,6 +8,12 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 
+/**
+ * 
+ * @author Kuang Hao
+ * @since v1.0 2018年2月12日
+ *
+ */
 public class LruSoftHashMap<K, V> {
 	private Map<K, Reference<V>> cacheMap = new HashMap<K, Reference<V>>();
 	private final Map<K, V> hardCache;
@@ -86,6 +92,7 @@ public class LruSoftHashMap<K, V> {
 			this.key = key;
 		}
 
+		@SuppressWarnings("unused")
 		K getKey() {
 			return key;
 		}

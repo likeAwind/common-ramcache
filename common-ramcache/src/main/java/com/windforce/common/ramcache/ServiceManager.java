@@ -117,6 +117,7 @@ public class ServiceManager implements ServiceManagerMBean {
 	 *            实体类
 	 * @return 不存在会返回null
 	 */
+	@SuppressWarnings("deprecation")
 	public RegionCacheService getRegionService(Class<? extends IEntity> clz) {
 		CachedEntityConfig config = entityConfigs.get(clz);
 		if (config == null) {
