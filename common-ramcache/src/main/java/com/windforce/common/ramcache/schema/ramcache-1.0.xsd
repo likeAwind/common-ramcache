@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema"
-	targetNamespace="http://www.my9yu.com/common/ramcache" xmlns="http://www.my9yu.com/common/ramcache"
+	targetNamespace="http://www.windforce.com/common/ramcache" xmlns="http://www.windforce.com/common/ramcache"
 	elementFormDefault="qualified">
 
 	<!-- 根配置元素 -->
