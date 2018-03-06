@@ -64,9 +64,17 @@
 			<scope>test</scope>
 			<optional>true</optional>
 		</dependency>
+
 		<dependency>
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
+			<version>3.6.10.Final</version>
+			<optional>true</optional>
+		</dependency>
+
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-entitymanager</artifactId>
 			<version>3.6.10.Final</version>
 			<optional>true</optional>
 		</dependency>
@@ -76,10 +84,9 @@
 			<version>1.4.2</version>
 		</dependency>
 		<dependency>
-			<groupId>org.hibernate</groupId>
-			<artifactId>hibernate-entitymanager</artifactId>
-			<version>3.6.10.Final</version>
-			<optional>true</optional>
+			<groupId>com.google.guava</groupId>
+			<artifactId>guava</artifactId>
+			<version>24.0-jre</version>
 		</dependency>
 		<dependency>
 			<groupId>commons-dbcp</groupId>
@@ -98,11 +105,6 @@
 			<artifactId>javassist</artifactId>
 			<version>3.12.1.GA</version>
 			<optional>true</optional>
-		</dependency>
-		<dependency>
-			<groupId>commons-collections</groupId>
-			<artifactId>commons-collections</artifactId>
-			<version>3.1</version>
 		</dependency>
 	</dependencies>
 </project>

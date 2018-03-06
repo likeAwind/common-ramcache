@@ -58,5 +58,5 @@ public interface CacheFinder<PK extends Comparable<PK> & Serializable, T extends
 	 * 
 	 * @return
 	 */
-	int getAllSize();
+	long getAllSize();
 }

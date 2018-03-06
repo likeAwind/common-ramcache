@@ -21,8 +21,10 @@ import org.apache.commons.collections.bidimap.DualHashBidiMap;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.googlecode.concurrentlinkedhashmap.ConcurrentLinkedHashMap.Builder;
-import com.googlecode.concurrentlinkedhashmap.EvictionListener;
+import com.google.common.cache.Cache;
+import com.google.common.cache.CacheBuilder;
+import com.google.common.cache.RemovalListener;
+import com.google.common.cache.RemovalNotification;
 import com.windforce.common.ramcache.IEntity;
 import com.windforce.common.ramcache.anno.Cached;
 import com.windforce.common.ramcache.anno.CachedEntityConfig;
@@ -36,11 +38,10 @@ import com.windforce.common.ramcache.orm.Querier;
 import com.windforce.common.ramcache.persist.AbstractListener;
 import com.windforce.common.ramcache.persist.Element;
 import com.windforce.common.ramcache.persist.Persister;
-import com.windforce.common.ramcache.util.LruSoftHashMap;
 import com.windforce.common.utility.collection.ConcurrentHashSet;
 
-public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T extends IEntity<PK>> implements
-		EntityCacheService<PK, T>, CacheFinder<PK, T>, EntityEnhanceService<PK, T> {
+public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T extends IEntity<PK>>
+		implements EntityCacheService<PK, T>, CacheFinder<PK, T>, EntityEnhanceService<PK, T> {
 
 	private static final Logger logger = LoggerFactory.getLogger(EntityCacheServiceImpl.class);
 
@@ -59,7 +60,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	private Persister persister;
 
 	/** 实体缓存 */
-	private LruSoftHashMap<PK, T> cache;
+	private Cache<PK, T> cache;
 
 	/** 初始化方法 */
 	public synchronized void initialize(CachedEntityConfig config, Persister persister, Accessor accessor,
@@ -92,7 +93,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 			return null;
 		}
 		// 尝试从缓存中获取
-		T current = (T) cache.get(id);
+		T current = (T) cache.getIfPresent(id);
 		if (current != null) {
 			return current;
 		}
@@ -105,7 +106,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 				return null;
 			}
 			// 尝试从缓存中获取
-			current = (T) cache.get(id);
+			current = (T) cache.getIfPresent(id);
 			if (current != null) {
 				return current;
 			}
@@ -153,7 +154,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		// 先判断主键是否有效
 		if (!removing.contains(id)) {
 			// 尝试从缓存中获取
-			T current = (T) cache.get(id);
+			T current = (T) cache.getIfPresent(id);
 			if (current != null) {
 				return current;
 			}
@@ -164,7 +165,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		Lock lock = lockPkLock(id);
 		try {
 			// 尝试从缓存中获取
-			current = (T) cache.get(id);
+			current = (T) cache.getIfPresent(id);
 			if (current != null) {
 				return current;
 			}
@@ -213,8 +214,8 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 							@SuppressWarnings("unchecked")
 							PK prev = (PK) unique.put(uniqueValue, id);
 							if (prev != null) {
-								logger.error("实体[{}]的唯一键值[{}]异常:原主键[{}],当前主键[{}]", new Object[] { entityClz.getName(),
-										uniqueValue, prev, id });
+								logger.error("实体[{}]的唯一键值[{}]异常:原主键[{}],当前主键[{}]",
+										new Object[] { entityClz.getName(), uniqueValue, prev, id });
 							}
 
 							// 添加回滚数据以备回滚需要
@@ -289,7 +290,8 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 			// 添加到删除中主键集合
 			removing.add(id);
 			// 从缓存中移除
-			T current = cache.remove(id);
+			T current = cache.getIfPresent(id);
+			cache.invalidate(id);
 			if (current != null && config.hasUniqueField()) {
 				// 关联清理唯一属性值
 				Map<String, Object> uniqueValues = config.getUniqueValues(current);
@@ -309,7 +311,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	@Override
 	public void clear(PK id) {
 		// 尝试从缓存中获取
-		T current = (T) cache.get(id);
+		T current = (T) cache.getIfPresent(id);
 		if (current != null) {
 			return; // 缓存中不存在不需要处理
 		}
@@ -317,7 +319,8 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		Lock lock = lockPkLock(id);
 		try {
 			// 从缓存中移除
-			current = cache.remove(id);
+			current = (T) cache.getIfPresent(id);
+			cache.invalidate(id);
 			if (current != null && config.hasUniqueField()) {
 				// 关联清理唯一属性值
 				Map<String, Object> uniqueValues = config.getUniqueValues(current);
@@ -368,7 +371,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 				return null;
 			}
 			// 尝试从缓存中获取
-			T prev = (T) cache.get(id);
+			T prev = (T) cache.getIfPresent(id);
 			if (prev != null) {
 				return prev;
 			}
@@ -456,7 +459,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	public Set<T> find(Filter<T> filter) {
 		uninitializeThrowException();
 		HashSet<T> result = new HashSet<T>();
-		for (T entity : cache.values()) {
+		for (T entity : cache.asMap().values()) {
 			if (filter.isExclude(entity)) {
 				continue;
 			}
@@ -468,7 +471,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	@Override
 	public List<T> sort(Comparator<T> comparator) {
 		uninitializeThrowException();
-		ArrayList<T> result = new ArrayList<T>(cache.values());
+		ArrayList<T> result = new ArrayList<T>(cache.asMap().values());
 		Collections.sort(result, comparator);
 		return result;
 	}
@@ -477,7 +480,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	public List<T> find(Filter<T> filter, Comparator<T> comparator) {
 		uninitializeThrowException();
 		ArrayList<T> result = new ArrayList<T>();
-		for (T entity : cache.values()) {
+		for (T entity : cache.asMap().values()) {
 			if (filter.isExclude(entity)) {
 				continue;
 			}
@@ -490,7 +493,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	@Override
 	public Set<T> all() {
 		uninitializeThrowException();
-		HashSet<T> result = new HashSet<T>(cache.values());
+		HashSet<T> result = new HashSet<T>(cache.asMap().values());
 		return result;
 	}
 
@@ -604,30 +607,29 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		// 初始化实体缓存空间
 		switch (cached.type()) {
 		case LRU:
-			Builder<PK, T> builder = new Builder<PK, T>().initialCapacity(cached.initialCapacity()) // 设置调整大小因子
-					.maximumWeightedCapacity(config.getCachedSize()) // 设置最大元素数量(可能会临时超出该数值)
-					.concurrencyLevel(cached.concurrencyLevel()); // 设置并发更新线程数预计值
+			CacheBuilder<Object, Object> builder = CacheBuilder.newBuilder();
+			builder.weakValues();
 			if (config.hasUniqueField()) {
-				// 如果有唯一键值，则添加过期内容清理监听器
-				builder.listener(new EvictionListener<PK, T>() {
-					public void onEviction(PK key, T value) {
+				builder.removalListener(new RemovalListener<Object, Object>() {
+					@Override
+					public void onRemoval(RemovalNotification<Object, Object> notification) {
 						for (Entry<String, DualHashBidiMap> entry : uniques.entrySet()) {
 							WriteLock lock = config.getUniqueWriteLock(entry.getKey());
 							lock.lock();
 							try {
-								entry.getValue().removeValue(value.getId());
+								entry.getValue().removeValue(notification.getKey());
 							} finally {
 								lock.unlock();
 							}
 						}
-					};
+					}
 				});
+				// 如果有唯一键值，则添加过期内容清理监听器
 			}
-			this.cache = new LruSoftHashMap<PK, T>(builder.build());
+			this.cache = builder.build();
 			break;
 		case MANUAL:
-			this.cache = new LruSoftHashMap<PK, T>(new ConcurrentHashMap<PK, T>(cached.initialCapacity(), (float) 0.75,
-					cached.concurrencyLevel()));
+			this.cache = CacheBuilder.newBuilder().maximumSize(Integer.MAX_VALUE).build();
 			break;
 		default:
 			throw new ConfigurationException("未支持的缓存管理类型[" + cached.type() + "]");
@@ -669,8 +671,8 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 	}
 
 	@Override
-	public int getAllSize() {
-		return this.cache.getCacheMapSize();
+	public long getAllSize() {
+		return this.cache.size();
 	}
 
 	@Override
@@ -680,7 +682,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		// 先判断主键是否有效
 		if (!removing.contains(id)) {
 			// 尝试从缓存中获取
-			T current = (T) cache.get(id);
+			T current = (T) cache.getIfPresent(id);
 			if (current != null) {
 				return current;
 			}
@@ -691,7 +693,7 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		Lock lock = lockPkLock(id);
 		try {
 			// 尝试从缓存中获取
-			current = (T) cache.get(id);
+			current = (T) cache.getIfPresent(id);
 			if (current != null) {
 				return current;
 			}
@@ -723,8 +725,8 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 						@SuppressWarnings("unchecked")
 						PK prev = (PK) unique.put(uniqueValue, id);
 						if (prev != null) {
-							logger.error("实体[{}]的唯一键值[{}]异常:原主键[{}],当前主键[{}]", new Object[] { entityClz.getName(),
-									uniqueValue, prev, id });
+							logger.error("实体[{}]的唯一键值[{}]异常:原主键[{}],当前主键[{}]",
+									new Object[] { entityClz.getName(), uniqueValue, prev, id });
 						}
 					} finally {
 						uniqueLock.unlock();
