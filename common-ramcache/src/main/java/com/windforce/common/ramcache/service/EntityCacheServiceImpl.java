@@ -607,26 +607,25 @@ public class EntityCacheServiceImpl<PK extends Comparable<PK> & Serializable, T 
 		// 初始化实体缓存空间
 		switch (cached.type()) {
 		case LRU:
-			CacheBuilder<Object, Object> builder = CacheBuilder.newBuilder();
-			builder.weakValues();
+
 			if (config.hasUniqueField()) {
-				builder.removalListener(new RemovalListener<Object, Object>() {
+				this.cache = CacheBuilder.newBuilder().removalListener(new RemovalListener<PK, T>() {
 					@Override
-					public void onRemoval(RemovalNotification<Object, Object> notification) {
+					public void onRemoval(RemovalNotification<PK, T> notification) {
 						for (Entry<String, DualHashBidiMap> entry : uniques.entrySet()) {
 							WriteLock lock = config.getUniqueWriteLock(entry.getKey());
 							lock.lock();
 							try {
-								entry.getValue().removeValue(notification.getKey());
+								entry.getValue().removeValue(notification.getValue().getId());
 							} finally {
 								lock.unlock();
 							}
 						}
 					}
-				});
-				// 如果有唯一键值，则添加过期内容清理监听器
+				}).weakValues().build();
+			} else {
+				this.cache = CacheBuilder.newBuilder().weakValues().build();
 			}
-			this.cache = builder.build();
 			break;
 		case MANUAL:
 			this.cache = CacheBuilder.newBuilder().maximumSize(Integer.MAX_VALUE).build();
